@@ -2,6 +2,14 @@
 
 A collection of interesting research papers, projects, and documents I've come across.
 
+## Visio Diagrams (PDF Format)
+
+- [Data to LLM Processes](Data%20to%20LLM%20Processes.pdf)
+- [Foundation Models](Foundation%20Models.pdf)
+- [LLM Stack](LLM%20Stack.pdf)
+- [Multi_Models](Multi_Models.pdf)
+
+
 ## Table of Contents
 
 1. [Research Papers](#research-papers)
