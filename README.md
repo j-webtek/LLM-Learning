@@ -1,70 +1,94 @@
 # 📘 LLM-Learning 
-> Curating the future of research and projects in Large Language Models.
 
-Welcome to LLM-Learning! This repository is a vibrant collection of research papers, projects, and resources I've found fascinating in the realm of Large Language Models (LLMs). Whether you're a researcher, enthusiast, or just curious, feel free to dive into the depths of LLM wonders! 🚀
-
----
-
-## 📌 Table of Contents
-
-- [Visual Diagrams](#-visual-diagrams-pdf-format)
-- [Research Spotlight](#-research-spotlight)
-- [Innovative Projects](#-innovative-projects)
-- [Must-Read Links](#-must-read-links)
-- [License & Terms](#-license)
+Welcome to LLM-Learning! Dive into a curated collection of intriguing research papers, innovative projects, and insightful documents from the world of Large Language Models and beyond.
 
 ---
 
-## 🖼️ Visual Diagrams (PDF Format)
+## 🚀 Quick Navigation
 
-- 📜 [Data to LLM Processes](Data%20to%20LLM%20Processes.pdf)
-- 📜 [Foundation Models](Foundation%20Models.pdf)
-- 📜 [LLM Stack](LLM%20Stack.pdf)
-- 📜 [Multi_Models](Multi_Models.pdf)
-
----
-
-## 🌟 Research Spotlight
-
-Uncover the latest findings and breakthroughs in the world of LLMs:
-
-### 09/22/23:
-
-📄 **Large Language Models for Compiler Optimization**
-- *Synopsis*: Investigates the prowess of LLMs in code optimization using a 7B-parameter transformer model.
-- [Read more](https://arxiv.org/pdf/2309.07062.pdf)
-
-📄 **PROMPT2MODEL: Generating Deployable Models from Instructions**
-- *Synopsis*: Introducing "Prompt2Model", a method transforming natural language descriptions into specialized models.
-- [Read more](https://arxiv.org/pdf/2309.07062.pdf)
-
-📄 **Precise Zero-Shot Dense Retrieval without Relevance Labels**
-- *Synopsis*: Delving into Hypothetical Document Embeddings (HyDE) to enhance zero-shot dense retrieval systems.
-- [Read more](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://aclanthology.org/2023.acl-long.99.pdf)
+1. [Visual Diagrams](#📊-visual-diagrams)
+2. [Research Papers](#📄-research-papers)
+3. [Projects](#🛠️-projects)
+4. [Links & Articles](#🔗-links--articles)
+5. [License](#🔖-license)
 
 ---
 
-## 💡 Innovative Projects
+## 📊 Visual Diagrams
 
-Explore cutting-edge projects that are shaping the future of LLMs:
-
-- **[Cleanlab](https://github.com/cleanlab/cleanlab)**: A package assisting in cleaning data and labels by detecting issues in ML datasets.
-- **[Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)**: A real-time updated curated list of Multimodal LLMs.
-- **[DreamLLM](https://github.com/RunpeiDong/DreamLLM)**: A learning framework unveiling the synergy between multimodal comprehension and creation.
-- ... [and more](https://github.com/yourusername/LLM-Learning#-innovative-projects)
-
----
-
-## 📖 Must-Read Links
-
-Stay updated with articles, guides, and blogs that provide insights and perspectives on LLMs:
-
-- [Why Open Source AI Will Win](https://varunshenoy.substack.com/p/why-open-source-ai-will-win): The potential of open-source AI.
-- [Guide to Chroma DB](https://www.analyticsvidhya.com/blog/2023/07/guide-to-chroma-db-a-vector-store-for-your-generative-ai-llms/): A deep dive into Chroma DB, an open-source Vector Database.
-- ... [and more](https://github.com/yourusername/LLM-Learning#-must-read-links)
+For a pictorial insight:
+- [Data to LLM Processes](Data%20to%20LLM%20Processes.pdf)
+- [Foundation Models](Foundation%20Models.pdf)
+- [LLM Stack](LLM%20Stack.pdf)
+- [Multi_Models](Multi_Models.pdf)
 
 ---
 
-## 📜 License
+## 📄 Research Papers
 
-This treasure trove of knowledge is shared under the MIT License. Dive into the `LICENSE` file for the detailed terms and conditions.
+Dive deep into the world of research with these enlightening papers:
+
+### 🗓️ September 22, 2023:
+
+- **Large Language Models for Compiler Optimization**
+  - 📜 [Read the Paper](https://arxiv.org/pdf/2309.07062.pdf)
+  - 📝 A study on the use of Large Language Models for code optimization, enhancing LLVM assembly code size.
+
+- **PROMPT2MODEL: Generating Deployable Models from Natural Language Instructions**
+  - 📜 [Read the Paper](https://arxiv.org/pdf/2309.07062.pdf)
+  - 📝 A method that transforms natural language task descriptions into deployable special-purpose models.
+
+- **Precise Zero-Shot Dense Retrieval without Relevance Labels**
+  - 📜 [Read the Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://aclanthology.org/2023.acl-long.99.pdf)
+  - 📝 Introduction of Hypothetical Document Embeddings (HyDE) for zero-shot dense retrieval systems.
+
+---
+
+## 🛠️ Projects
+
+Explore innovative projects in the LLM space:
+
+- 🌟 **Cleanlab** - An aid for cleaning data and labels in ML datasets. [Check it out](https://github.com/cleanlab/cleanlab).
+  
+- 🌟 **Awesome-Multimodal-Large-Language-Models** - A curated list of Multimodal Large Language Models. [Explore here](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models).
+
+- 🌟 **DreamLLM** - A learning framework focusing on synergy between multimodal comprehension and creation. [Dive in](https://github.com/RunpeiDong/DreamLLM).
+
+- 🌟 **NExT-GPT** - The first end-to-end MM-LLM for text, image, video, and audio. [Discover more](https://github.com/NExT-GPT/NExT-GPT).
+
+- 🌟 **LLaMa-Adapter** - A lightweight adaptation method for fine-tuning Instruction-following and Multi-modal LLaMA models. [Learn more](https://github.com/OpenGVLab/LLaMA-Adapter).
+
+- 🌟 **LargeLanguageModelsProjects** - A collection of llama models in different configurations. [Explore](https://github.com/MuhammadMoinFaisal/LargeLanguageModelsProjects/blob/main/Chat%20with%20Multiple%20Documents/Chat_with_Multiple_Documents_Llama2_OpenAI_Chroma_comp.ipynb).
+
+- 🌟 **axolotl** - A tool designed to streamline the fine-tuning of AI models. [Check it out](https://github.com/OpenAccess-AI-Collective/axolotl).
+
+- 🌟 **Prompt2Model - Generate Deployable Models from Instructions** - Streamlining the creation of models for specific tasks. [See the project](https://github.com/neulab/prompt2model/blob/main/prompt2model_demo.ipynb).
+
+- 🌟 **LiteLLM** - Manages inputs to the provider's completion and embedding endpoints. [Discover](https://github.com/BerriAI/litellm).
+
+---
+
+## 🔗 Links & Articles
+
+Stay updated with the latest articles and insights:
+
+- [Why Open Source AI Will Win](https://varunshenoy.substack.com/p/why-open-source-ai-will-win) - The debate between open-source and closed-source AI models.
+
+- [RAG is more than just embedding search](https://jxnl.github.io/instructor/blog/2023/09/17/rag-is-more-than-just-embedding-search/) - Potential of Retrieval Augmented Generation (RAG) in LLMs.
+
+- [Guide to Chroma DB | A Vector Store for Generative AI LLMs](https://www.analyticsvidhya.com/blog/2023/07/guide-to-chroma-db-a-vector-store-for-your-generative-ai-llms/) - An introduction to Chroma DB, a vector database for LLMs.
+
+- [Building a Knowledge base for custom LLMs](https://cismography.medium.com/building-a-knowledge-base-for-custom-llms-using-langchain-chroma-and-gpt4all-950906ae496d) - How to build a knowledge base for custom LLMs.
+
+- [Fine-Tuning LLMs: LoRA or Full-Parameter?](https://www.anyscale.com/blog/fine-tuning-llms-lora-or-full-parameter-an-in-depth-analysis-with-llama-2) - A comparison of full-parameter fine-tuning and LoRA for Llama 2 models.
+
+- [Building a Scalable Pipeline for LLMs and RAG](https://ai.plainenglish.io/building-a-scalable-pipeline-for-large-language-models-and-rag-an-overview-7cb93a03f657) - Constructing a scalable pipeline for LLMs and RAG.
+
+- [Build AI search into your applications](https://www.elastic.co/elasticsearch/elasticsearch-relevance-engine) - Introduction to the Elasticsearch Relevance Engine™ for AI-based search.
+
+---
+
+## 🔖 License
+
+This repository is licensed under the MIT License. Dive into the [`LICENSE`](LICENSE) file for more details.
+
