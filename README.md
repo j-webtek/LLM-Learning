@@ -35,11 +35,11 @@ Dive deep into the world of research with these enlightening papers:
   - 📝 A study on the use of Large Language Models for code optimization.
 
 - **PROMPT2MODEL: Generating Deployable Models from Natural Language Instructions**
-  - 📜 [Read the Paper](https://arxiv.org/pdf/2309.07062.pdf)
+  - 📜 [Read the Paper](https://arxiv.org/pdf/2308.12261.pdf)
   - 📝 A method that transforms natural language task descriptions into deployable models.
 
 - **Precise Zero-Shot Dense Retrieval without Relevance Labels**
-  - 📜 [Read the Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://aclanthology.org/2023.acl-long.99.pdf)
+  - 📜 [Read the Paper](https://aclanthology.org/2023.acl-long.99.pdf)
   - 📝 Introduction of Hypothetical Document Embeddings (HyDE) for zero-shot dense retrieval.
 
 ---
