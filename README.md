@@ -1,6 +1,6 @@
 # 📘 LLM-Learning 
 
-Welcome to LLM-Learning! Dive into a curated collection of intriguing research papers, innovative projects, and insightful documents from the world of Large Language Models and beyond.
+Welcome to LLM-Learning! This repository is dedicated to offering a curated collection of intriguing research papers, innovative projects, and insightful documents from the world of Large Language Models (LLMs) and beyond. Whether you're a seasoned researcher or a curious enthusiast, delve into the transformative capabilities of LLMs and discover their potential across diverse applications.
 
 ---
 
