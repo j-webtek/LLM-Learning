@@ -38,11 +38,11 @@ Links & Articles: 21
 
 ## 🚀 Quick Navigation
 
-1. [Visual Diagrams](#📊-visual-diagrams)
-2. [Research Papers](#📄-research-papers)
-3. [Projects](#🛠️-projects)
-4. [Links & Articles](#🔗-links--articles)
-5. [License](#🔖-license)
+1. [Visual Diagrams](#visual-diagrams)
+2. [Research Papers](#research-papers)
+3. [Projects](#projects)
+4. [Links & Articles](#links--articles)
+5. [License](#license)
 
 ---
 
