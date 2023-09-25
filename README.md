@@ -1,6 +1,38 @@
 # 📘 LLM-Learning 
 
-Welcome to LLM-Learning! This repository is dedicated to offering a curated collection of intriguing research papers, innovative projects, and insightful documents from the world of Large Language Models (LLMs) and beyond. Whether you're a seasoned researcher or a curious enthusiast, delve into the transformative capabilities of LLMs and discover their potential across diverse applications.
+Welcome to LLM-Learning! This repository is dedicated to offering a curated collection of intriguing research papers, innovative projects, and insightful documents from the world of Large Language Models (LLMs) and beyond. LLMs have transformed the AI landscape with their ability to understand and generate human-like text. Here, we gather some of the most notable works that provide insights into their capabilities, applications, and potential impact. Whether you're a seasoned researcher, a developer looking to harness the power of LLMs, or just a curious enthusiast, there's something for everyone. Dive into the transformative capabilities of LLMs and discover their potential across diverse applications.
+
+---
+
+📈 Repository Statistics
+Research Papers: 7
+Projects: 10
+Links & Articles: 21
+
+---
+🆕 Latest Additions
+
+### 📄 Research Papers
+
+- **CoRF: Colorizing Radiance Fields using Knowledge Distillation**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2309.07668)
+  - 📝 This research introduces a method to generate colorized novel views from input grayscale multi-view images using Neural Radiance Fields (NeRF). The proposed distillation-based technique effectively transfers color knowledge from 2D colorization methods to the radiance field network, ensuring 3D consistency and producing superior results in both indoor and outdoor scenes compared to other methods.
+
+### 🛠️ Projects
+
+- 🌟 **chatgpt-history-export-to-md** - Convert your ChatGPT history and data export into neatly formatted Markdown files. It includes YAML headers and a Code interpreter for Advanced Data Analysis. [Check it out on GitHub](https://github.com/mohamed-chs/chatgpt-history-export-to-md).
+
+### 🔗 Links & Articles
+
+- [Getty made an AI generator that only trained on its licensed images](https://www.theverge.com/2023/9/25/23884679/getty-ai-generative-image-platform-launch) - Getty Images collaborated with Nvidia to introduce a tool allowing users to produce images from its extensive library, ensuring full copyright indemnification.
+- [ChatGPT can now see, hear, and speak](https://openai.com/blog/chatgpt-can-now-see-hear-and-speak) - ChatGPT introduces new voice and image capabilities, emphasizing user safety, privacy, and understanding model limitations.
+- [Expanding access to safer AI with Amazon](https://www.anthropic.com/index/anthropic-amazon) - Amazon's collaboration with Anthropic aims to create industry-leading foundation models and make advanced models like Claude 2 accessible through Amazon Bedrock.
+- [GPT-4V (ision) System Card](https://cdn.openai.com/papers/GPTV_System_Card.pdf) - GPT-4 with Vision (GPT-4V) combines text and image processing, expanding the impact of language-only systems.
+- [Our Humble Attempt at “How Much Data Is Needed to Fine-Tune”](https://barryzhang.substack.com/p/our-humble-attempt-at-fine-tuning) - Researchers experiment with the OpenAI fine-tuning API, revealing that GPT-3.5 can achieve near GPT-4 performance in specialized tasks.
+- [Falcon 180B: Can It Run on Your Computer?](https://kaitchup.substack.com/p/falcon-180b-can-it-run-on-your-computer) - The Technology Innovation Institute (TII) introduces Falcon 180B, a massive 180 billion parameter model, emphasizing its memory requirements.
+- [Two-Tower Embedding Model](https://www.hopsworks.ai/dictionary/two-tower-embedding-model) - A training approach aligning embeddings from two modalities, like images and text, useful for personalized recommendation systems.
+- [A Hackers' Guide to Language Models](https://www.youtube.com/watch?v=jkrNMKz9pWU&ab_channel=JeremyHoward) - Jeremy Howard covers foundational concepts, evaluations of GPT-4, and practical applications of modern language models.
+- [Spotify’s AI Voice Translation Pilot Means Your Favorite Podcasters Might Be Heard in Your Native Language](https://newsroom.spotify.com/2023-09-25/ai-voice-translation-pilot-lex-fridman-dax-shepard-steven-bartlett/) - Spotify pilots a new feature using AI to translate podcasts while retaining the original speaker's voice and style.
 
 ---
 
@@ -51,6 +83,10 @@ Dive deep into the world of research with these enlightening papers:
 - **DataFinder: Scientific Dataset Recommendation from Natural Language Descriptions**
   - 📜 [Read the Paper](https://aclanthology.org/2023.acl-long.573.pdf)
   - 📝 The study introduces the task of recommending datasets based on a short natural language description of a research idea.
+ 
+- **CoRF: Colorizing Radiance Fields using Knowledge Distillation**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2309.07668)
+  - 📝 This research introduces a method to generate colorized novel views from input grayscale multi-view images using Neural Radiance Fields (NeRF). The proposed distillation-based technique effectively transfers color knowledge from 2D colorization methods to the radiance field network, ensuring 3D consistency and producing superior results in both indoor and outdoor scenes compared to other methods.
 
 ---
 
@@ -75,6 +111,7 @@ Dive deep into the world of research with these enlightening papers:
 - 🌟 **AutoGPT** - A modular toolkit for AI agents. [Explore on GitHub](https://github.com/Significant-Gravitas/AutoGPT).
 - 🌟 **localGPT** - Interact with documents locally ensuring data privacy. [Check it out on GitHub](https://github.com/PromtEngineer/localGPT).
 - 🌟 **LLM-Finetuning-Hub** - Resources for finetuning LLMs tailored to specific use cases. [Learn more on GitHub](https://github.com/georgian-io/LLM-Finetuning-Hub).
+- 🌟 **chatgpt-history-export-to-md** - Convert your ChatGPT history and data export into neatly formatted Markdown files. It includes YAML headers and a Code interpreter for Advanced Data Analysis. [Check it out on GitHub](https://github.com/mohamed-chs/chatgpt-history-export-to-md).
 
 ---
 
@@ -88,6 +125,9 @@ Dive deep into the world of research with these enlightening papers:
 - [Practical insights and best practices for Fine Tuned LLM based use cases for Governed Enterprises](https://3ai.in/practical-insights-and-best-practices-for-fine-tuned-llm-based-use-cases-for-governed-enterprises/) - Aditya Khandekar's article on 3AI discusses best practices for deploying Large Language Models (LLMs) in enterprise settings.
 - [Essential Guide to Foundation Models and Large Language Models](https://thebabar.medium.com/essential-guide-to-foundation-models-and-large-language-models-27dab58f7404) - Foundation models explained.
 - [Why You (Probably) Don’t Need to Fine-tune an LLM](https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/) - This article guides those building applications with Large Language Models (LLMs), emphasizing that while many consider fine-tuning LLMs to enhance performance, there are often simpler and more effective alternatives.
+- [Getty made an AI generator that only trained on its licensed images](https://www.theverge.com/2023/9/25/23884679/getty-ai-generative-image-platform-launch) - Getty Images collaborated with Nvidia to introduce a tool allowing users to produce images from its extensive library, ensuring full copyright indemnification.
+- [ChatGPT can now see, hear, and speak](https://openai.com/blog/chatgpt-can-now-see-hear-and-speak) - ChatGPT introduces new voice and image capabilities, emphasizing user safety, privacy, and understanding model limitations.
+- [Expanding access to safer AI with Amazon](https://www.anthropic.com/index/anthropic-amazon) - Amazon's collaboration with Anthropic aims to create industry-leading foundation models and make advanced models like Claude 2 accessible through Amazon Bedrock.
 
 ### 🛠️ Tools & Databases
 
@@ -95,6 +135,7 @@ Dive deep into the world of research with these enlightening papers:
 - [Build AI search into your applications](https://www.elastic.co/elasticsearch/elasticsearch-relevance-engine) - Introduction to the Elasticsearch Relevance Engine™ for AI-based search.
 - [Llama API](https://python.langchain.com/docs/integrations/chat/llama_api) - This notebook shows how to use LangChain with LlamaAPI.
 - [Embedchain](https://docs.embedchain.ai/quickstart) - Start building LLM-powered bots in under 30 seconds.
+- [Two-Tower Embedding Model](https://www.hopsworks.ai/dictionary/two-tower-embedding-model) - A training approach aligning embeddings from two modalities, like images and text, useful for personalized recommendation systems.
 
 ### 📚 Tutorials & How-Tos
 
@@ -102,11 +143,16 @@ Dive deep into the world of research with these enlightening papers:
 - [Fine-Tuning LLMs: LoRA or Full-Parameter?](https://www.anyscale.com/blog/fine-tuning-llms-lora-or-full-parameter-an-in-depth-analysis-with-llama-2) - A comparison of full-parameter fine-tuning and LoRA for Llama 2 models.
 - [Building a Scalable Pipeline for LLMs and RAG](https://ai.plainenglish.io/building-a-scalable-pipeline-for-large-language-models-and-rag-an-overview-7cb93a03f657) - Constructing a scalable pipeline for LLMs and RAG.
 - [How to run a llama, alpaca, vicuna REST API for AI Discord Bot, Part 1](https://www.youtube.com/watch?v=PMFf9FwPN70&ab_channel=Janek) - How to set up a llama.cpp python binding server to host an API for LLM and how to create a python script for discord bot.
+- [A Hackers' Guide to Language Models](https://www.youtube.com/watch?v=jkrNMKz9pWU&ab_channel=JeremyHoward) - Jeremy Howard covers foundational concepts, evaluations of GPT-4, and practical applications of modern language models.
+- [Spotify’s AI Voice Translation Pilot Means Your Favorite Podcasters Might Be Heard in Your Native Language](https://newsroom.spotify.com/2023-09-25/ai-voice-translation-pilot-lex-fridman-dax-shepard-steven-bartlett/) - Spotify pilots a new feature using AI to translate podcasts while retaining the original speaker's voice and style.
 
 ### 📈 Research & Innovations
 
 - [Anand Katti](https://www.linkedin.com/posts/anand-katti-4278637_ai-genai-llm-activity-7097479600368160768-jNzj/) - LLMOps enhances the MLOps framework by introducing LLM-specific tasks.
 - [An Introduction to LLMOps: Operationalizing and Managing Large Language Models using Azure ML](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/an-introduction-to-llmops-operationalizing-and-managing-large/ba-p/3910996) - Large language models (LLMs) like GPT-4 have transformed natural language processing with their superior performance, but their real-world deployment requires a systematic approach called LLMOps.
+- [GPT-4V (ision) System Card](https://cdn.openai.com/papers/GPTV_System_Card.pdf) - GPT-4 with Vision (GPT-4V) combines text and image processing, expanding the impact of language-only systems.
+- [Our Humble Attempt at “How Much Data Is Needed to Fine-Tune”](https://barryzhang.substack.com/p/our-humble-attempt-at-fine-tuning) - Researchers experiment with the OpenAI fine-tuning API, revealing that GPT-3.5 can achieve near GPT-4 performance in specialized tasks.
+- [Falcon 180B: Can It Run on Your Computer?](https://kaitchup.substack.com/p/falcon-180b-can-it-run-on-your-computer) - The Technology Innovation Institute (TII) introduces Falcon 180B, a massive 180 billion parameter model, emphasizing its memory requirements.
 
 ---
 
