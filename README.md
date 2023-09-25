@@ -60,6 +60,8 @@ For a pictorial insight:
 
 Dive deep into the world of research with these enlightening papers:
 
+### 💼 Applications and Deployment
+
 - **Large Language Models for Compiler Optimization**
   - 📜 [Read the Paper](https://arxiv.org/pdf/2309.07062.pdf)
   - 📝 A study on the use of Large Language Models for code optimization.
@@ -68,9 +70,7 @@ Dive deep into the world of research with these enlightening papers:
   - 📜 [Read the Paper](https://arxiv.org/pdf/2308.12261.pdf)
   - 📝 A method that transforms natural language task descriptions into deployable models.
 
-- **Precise Zero-Shot Dense Retrieval without Relevance Labels**
-  - 📜 [Read the Paper](https://aclanthology.org/2023.acl-long.99.pdf)
-  - 📝 Introduction of Hypothetical Document Embeddings (HyDE) for zero-shot dense retrieval.
+### 📊 Data Handling and Annotation
 
 - **AnnoLLM: Making Large Language Models to Be Better**
   - 📜 [Read the Paper](https://www.semanticscholar.org/reader/70da4fb798a86cbe8cad96c27ced0415885bbd9d)
@@ -83,10 +83,18 @@ Dive deep into the world of research with these enlightening papers:
 - **DataFinder: Scientific Dataset Recommendation from Natural Language Descriptions**
   - 📜 [Read the Paper](https://aclanthology.org/2023.acl-long.573.pdf)
   - 📝 The study introduces the task of recommending datasets based on a short natural language description of a research idea.
- 
+
+### 🎨 Graphics and Imaging
+
 - **CoRF: Colorizing Radiance Fields using Knowledge Distillation**
   - 📜 [Read the Paper](https://arxiv.org/abs/2309.07668)
   - 📝 This research introduces a method to generate colorized novel views from input grayscale multi-view images using Neural Radiance Fields (NeRF). The proposed distillation-based technique effectively transfers color knowledge from 2D colorization methods to the radiance field network, ensuring 3D consistency and producing superior results in both indoor and outdoor scenes compared to other methods.
+
+### 🚀 Retrieval Techniques
+
+- **Precise Zero-Shot Dense Retrieval without Relevance Labels**
+  - 📜 [Read the Paper](https://aclanthology.org/2023.acl-long.99.pdf)
+  - 📝 Introduction of Hypothetical Document Embeddings (HyDE) for zero-shot dense retrieval.
 
 ---
 
@@ -94,19 +102,28 @@ Dive deep into the world of research with these enlightening papers:
 
 ### 💡 Model Optimization & Fine-Tuning
 
+#### Data Cleaning and Labeling
 - 🌟 **Cleanlab** - An aid for cleaning data and labels in ML datasets. [Check it out](https://github.com/cleanlab/cleanlab).
+
+#### Model Adaptation and Fine-Tuning
 - 🌟 **LLaMa-Adapter** - A lightweight adaptation method for fine-tuning Instruction-following and Multi-modal LLaMA models. [Learn more](https://github.com/OpenGVLab/LLaMA-Adapter).
 - 🌟 **axolotl** - A tool designed to streamline the fine-tuning of AI models. [Check it out](https://github.com/OpenAccess-AI-Collective/axolotl).
 
 ### 🌐 Multimodal Models & Applications
 
+#### Curated Lists and Collections
 - 🌟 **Awesome-Multimodal-Large-Language-Models** - A curated list of Multimodal Large Language Models. [Explore here](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models).
+
+#### Frameworks and Systems
 - 🌟 **DreamLLM** - A learning framework focusing on synergy between multimodal comprehension and creation. [Dive in](https://github.com/RunpeiDong/DreamLLM).
 - 🌟 **NExT-GPT** - The first end-to-end MM-LLM for text, image, video, and audio. [Discover more](https://github.com/NExT-GPT/NExT-GPT).
 
 ### 🛍️ Collections & Repositories
 
+#### LLM Collections and Demonstrations
 - 🌟 **LargeLanguageModelsProjects** - A collection of llama models in different configurations. [Explore](https://github.com/MuhammadMoinFaisal/LargeLanguageModelsProjects/blob/main/Chat%20with%20Multiple%20Documents/Chat_with_Multiple_Documents_Llama2_OpenAI_Chroma_comp.ipynb).
+
+#### Toolkits and Utilities
 - 🌟 **LiteLLM** - Manages inputs to the provider's completion and embedding endpoints. [Discover](https://github.com/BerriAI/litellm).
 - 🌟 **AutoGPT** - A modular toolkit for AI agents. [Explore on GitHub](https://github.com/Significant-Gravitas/AutoGPT).
 - 🌟 **localGPT** - Interact with documents locally ensuring data privacy. [Check it out on GitHub](https://github.com/PromtEngineer/localGPT).
@@ -119,21 +136,33 @@ Dive deep into the world of research with these enlightening papers:
 
 ### 🌌 General AI Insights
 
+#### AI Model Philosophies and Debates
 - [Why Open Source AI Will Win](https://varunshenoy.substack.com/p/why-open-source-ai-will-win) - The debate between open-source and closed-source AI models.
+
+#### LLM Architectures and Applications
 - [RAG is more than just embedding search](https://jxnl.github.io/instructor/blog/2023/09/17/rag-is-more-than-just-embedding-search/) - Potential of Retrieval Augmented Generation (RAG) in LLMs.
 - [Emerging Architectures for LLM Applications](https://a16z.com/emerging-architectures-for-llm-applications/) - The article presents an architecture for applications using large language models (LLMs).
-- [Practical insights and best practices for Fine Tuned LLM based use cases for Governed Enterprises](https://3ai.in/practical-insights-and-best-practices-for-fine-tuned-llm-based-use-cases-for-governed-enterprises/) - Aditya Khandekar's article on 3AI discusses best practices for deploying Large Language Models (LLMs) in enterprise settings.
 - [Essential Guide to Foundation Models and Large Language Models](https://thebabar.medium.com/essential-guide-to-foundation-models-and-large-language-models-27dab58f7404) - Foundation models explained.
+
+#### Best Practices and Guidelines
+- [Practical insights and best practices for Fine Tuned LLM based use cases for Governed Enterprises](https://3ai.in/practical-insights-and-best-practices-for-fine-tuned-llm-based-use-cases-for-governed-enterprises/) - Aditya Khandekar's article on 3AI discusses best practices for deploying Large Language Models (LLMs) in enterprise settings.
 - [Why You (Probably) Don’t Need to Fine-tune an LLM](https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/) - This article guides those building applications with Large Language Models (LLMs), emphasizing that while many consider fine-tuning LLMs to enhance performance, there are often simpler and more effective alternatives.
+
+#### AI in Multimedia and Collaboration
 - [Getty made an AI generator that only trained on its licensed images](https://www.theverge.com/2023/9/25/23884679/getty-ai-generative-image-platform-launch) - Getty Images collaborated with Nvidia to introduce a tool allowing users to produce images from its extensive library, ensuring full copyright indemnification.
 - [ChatGPT can now see, hear, and speak](https://openai.com/blog/chatgpt-can-now-see-hear-and-speak) - ChatGPT introduces new voice and image capabilities, emphasizing user safety, privacy, and understanding model limitations.
 - [Expanding access to safer AI with Amazon](https://www.anthropic.com/index/anthropic-amazon) - Amazon's collaboration with Anthropic aims to create industry-leading foundation models and make advanced models like Claude 2 accessible through Amazon Bedrock.
 
 ### 🛠️ Tools & Databases
 
+#### LLM Databases and Search Engines
 - [Guide to Chroma DB | A Vector Store for Generative AI LLMs](https://www.analyticsvidhya.com/blog/2023/07/guide-to-chroma-db-a-vector-store-for-your-generative-ai-llms/) - An introduction to Chroma DB, a vector database for LLMs.
 - [Build AI search into your applications](https://www.elastic.co/elasticsearch/elasticsearch-relevance-engine) - Introduction to the Elasticsearch Relevance Engine™ for AI-based search.
+
+#### LLM Integration and APIs
 - [Llama API](https://python.langchain.com/docs/integrations/chat/llama_api) - This notebook shows how to use LangChain with LlamaAPI.
+
+#### LLM Toolkits and Platforms
 - [Embedchain](https://docs.embedchain.ai/quickstart) - Start building LLM-powered bots in under 30 seconds.
 - [Two-Tower Embedding Model](https://www.hopsworks.ai/dictionary/two-tower-embedding-model) - A training approach aligning embeddings from two modalities, like images and text, useful for personalized recommendation systems.
 
