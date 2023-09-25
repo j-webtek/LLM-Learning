@@ -5,9 +5,9 @@ Welcome to LLM-Learning! This repository is dedicated to offering a curated coll
 ---
 
 📈 Repository Statistics
-Research Papers: 7
-Projects: 10
-Links & Articles: 21
+Research Papers: 7.
+Projects: 10.
+Links & Articles: 21.
 
 ---
 🆕 Latest Additions
