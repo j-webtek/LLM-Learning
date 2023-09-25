@@ -28,8 +28,6 @@ For a pictorial insight:
 
 Dive deep into the world of research with these enlightening papers:
 
-### 🗓️ September 22, 2023:
-
 - **Large Language Models for Compiler Optimization**
   - 📜 [Read the Paper](https://arxiv.org/pdf/2309.07062.pdf)
   - 📝 A study on the use of Large Language Models for code optimization.
