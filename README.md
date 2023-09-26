@@ -7,32 +7,33 @@ Welcome to LLM-Learning! This repository is dedicated to offering a curated coll
 📈 Repository Statistics
 Research Papers: 7.
 Projects: 10.
-Links & Articles: 21.
+Links & Articles: 31.
 
 ---
-🆕 Latest Additions
-
-### 📄 Research Papers
-
-- **CoRF: Colorizing Radiance Fields using Knowledge Distillation**
-  - 📜 [Read the Paper](https://arxiv.org/abs/2309.07668)
-  - 📝 This research introduces a method to generate colorized novel views from input grayscale multi-view images using Neural Radiance Fields (NeRF). The proposed distillation-based technique effectively transfers color knowledge from 2D colorization methods to the radiance field network, ensuring 3D consistency and producing superior results in both indoor and outdoor scenes compared to other methods.
-
-### 🛠️ Projects
-
-- 🌟 **chatgpt-history-export-to-md** - Convert your ChatGPT history and data export into neatly formatted Markdown files. It includes YAML headers and a Code interpreter for Advanced Data Analysis. [Check it out on GitHub](https://github.com/mohamed-chs/chatgpt-history-export-to-md).
+🆕 Latest Additions **9/26/23**
 
 ### 🔗 Links & Articles
 
-- [Getty made an AI generator that only trained on its licensed images](https://www.theverge.com/2023/9/25/23884679/getty-ai-generative-image-platform-launch) - Getty Images collaborated with Nvidia to introduce a tool allowing users to produce images from its extensive library, ensuring full copyright indemnification.
-- [ChatGPT can now see, hear, and speak](https://openai.com/blog/chatgpt-can-now-see-hear-and-speak) - ChatGPT introduces new voice and image capabilities, emphasizing user safety, privacy, and understanding model limitations.
-- [Expanding access to safer AI with Amazon](https://www.anthropic.com/index/anthropic-amazon) - Amazon's collaboration with Anthropic aims to create industry-leading foundation models and make advanced models like Claude 2 accessible through Amazon Bedrock.
-- [GPT-4V (ision) System Card](https://cdn.openai.com/papers/GPTV_System_Card.pdf) - GPT-4 with Vision (GPT-4V) combines text and image processing, expanding the impact of language-only systems.
-- [Our Humble Attempt at “How Much Data Is Needed to Fine-Tune”](https://barryzhang.substack.com/p/our-humble-attempt-at-fine-tuning) - Researchers experiment with the OpenAI fine-tuning API, revealing that GPT-3.5 can achieve near GPT-4 performance in specialized tasks.
-- [Falcon 180B: Can It Run on Your Computer?](https://kaitchup.substack.com/p/falcon-180b-can-it-run-on-your-computer) - The Technology Innovation Institute (TII) introduces Falcon 180B, a massive 180 billion parameter model, emphasizing its memory requirements.
-- [Two-Tower Embedding Model](https://www.hopsworks.ai/dictionary/two-tower-embedding-model) - A training approach aligning embeddings from two modalities, like images and text, useful for personalized recommendation systems.
-- [A Hackers' Guide to Language Models](https://www.youtube.com/watch?v=jkrNMKz9pWU&ab_channel=JeremyHoward) - Jeremy Howard covers foundational concepts, evaluations of GPT-4, and practical applications of modern language models.
-- [Spotify’s AI Voice Translation Pilot Means Your Favorite Podcasters Might Be Heard in Your Native Language](https://newsroom.spotify.com/2023-09-25/ai-voice-translation-pilot-lex-fridman-dax-shepard-steven-bartlett/) - Spotify pilots a new feature using AI to translate podcasts while retaining the original speaker's voice and style.
+- **[NSA, FBI, and CISA Release Cybersecurity Information Sheet on Deepfake Threats](https://www.cisa.gov/news-events/alerts/2023/09/12/nsa-fbi-and-cisa-release-cybersecurity-information-sheet-deepfake-threats)**: The NSA, FBI, and CISA have released a Cybersecurity Information Sheet on the rising threat of synthetic media, including deepfakes, highlighting their growing impact on sectors like the NSS, DoD, and national infrastructure. The agencies emphasize the importance of reviewing their recommended steps and best practices to address deepfake threats effectively.
+  
+- **[Vicious Self-Degradation](https://twitter.com/8teapi/status/1706520893621784780)**: When a frequent query is Googled, Quora identifies it, uses ChatGPT to generate an answer that may contain a hallucination, and this ChatGPT-generated response becomes the top Google answer.
+
+- **[Inside the Matrix: Visualizing Matrix Multiplication, Attention, and Beyond](https://pytorch.org/blog/inside-the-matrix/)**: The article introduces "mm", a visualization tool designed to display matrix multiplications (matmuls), which are foundational to machine learning models. Using three-dimensional visualizations, "mm" enables a clearer understanding of complex matrix operations and compositions, especially benefiting visual thinkers, and covers various topics from basic matrix operations to the intricate workings of GPT-2 attention heads, demonstrating the benefits of this geometric approach to understanding algebraic properties in matrix computations.
+
+- **[Signal’s Meredith Whittaker: AI is fundamentally ‘a surveillance technology’](https://techcrunch.com/2023/09/25/signals-meredith-whittaker-ai-is-fundamentally-a-surveillance-technology/)**: Meredith Whittaker, Signal's president, emphasized at TechCrunch Disrupt 2023 that AI is fundamentally a surveillance technology, deeply intertwined with the big data and targeting industry dominated by tech giants. While acknowledging not all AI applications are exploitative, she highlighted the inherent surveillance nature of AI and the economic drivers behind facial recognition technology, noting that beneficial uses, like face blurring in Signal's app, are overshadowed by more intrusive applications driven by profit motives.
+
+- **[Can you beat a stochastic parrot?](https://parrotchess.com/)**: Play chess against GPT-3.5.
+
+- **[MuZero: Mastering Go, chess, shogi and Atari without rules](https://www.deepmind.com/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules)**: DeepMind's MuZero represents a significant advancement in AI, mastering games like Go, chess, shogi, and Atari without being pre-informed of the rules, showcasing its capability to strategize in unknown environments. Going beyond previous AI models, MuZero learns only the vital aspects of its environment and combines this with a look-ahead tree search, setting new performance standards while potentially leading to applications in real-world scenarios where rules are undefined.
+
+- **[Student Use Cases for AI](https://hbsp.harvard.edu/inspiring-minds/student-use-cases-for-ai)**: Generative AI tools, particularly large language models (LLMs), present both opportunities and challenges in educational settings, offering students and educators unparalleled access to powerful AI systems. As AI becomes increasingly prevalent in classrooms, it's crucial for educators and students to understand the potential benefits, biases, and privacy concerns of AI, and to adopt best practices for interacting with these tools to ensure effective and safe usage.
+
+- **[How to make history with LLMs & other generative models](https://leighmariebraswell.substack.com/p/how-to-make-history-with-llms-and)**: The author discusses the transformative potential of Large Language Models (LLMs), highlighting promising startup ideas in areas like developer tooling and knowledge worker augmentation, while expressing skepticism about general consumer search and some SaaS replacements. On the infrastructure side, running large models locally and providing computing for model training are seen as promising, but ventures into observability and vector databases face more challenges.
+
+- **[AI startup Lamini bets future on AMD's Instinct GPUs](https://www.theregister.com/2023/09/26/amd_instinct_ai_lamini/)**: AI startup Lamini has chosen to exclusively use AMD's Instinct GPUs for its platform that refines large language models (LLMs), setting itself apart from many competitors that rely on Nvidia's hardware. While Lamini's platform has garnered interest from major companies like Amazon and Walmart, AMD's focus on expanding its software ecosystem and forthcoming hardware upgrades aim to make its AI accelerators more attractive and accessible to developers and businesses.
+
+- **[A poor man's guide to fine-tuning Llama 2](https://duarteocarmo.com/blog/fine-tune-llma-2-telegram)**: The author details the ease and efficiency of fine-tuning the Llama 2 model to simulate conversations from their personal group chat using Axolotl, a tool designed to streamline the fine-tuning of large language models (LLMs). While the refined model captured the conversational nuances of the group chat about 70% of the time, there were still inaccuracies, leading the author to conclude that while open-source AI tools have made significant progress, they haven't entirely caught up yet.
+
 
 ---
 
@@ -138,6 +139,20 @@ Dive deep into the world of research with these enlightening papers:
 
 #### AI Model Philosophies and Debates
 - [Why Open Source AI Will Win](https://varunshenoy.substack.com/p/why-open-source-ai-will-win) - The debate between open-source and closed-source AI models.
+- [NSA, FBI, and CISA Release Cybersecurity Information Sheet on Deepfake Threats](https://www.cisa.gov/news-events/alerts/2023/09/12/nsa-fbi-and-cisa-release-cybersecurity-information-sheet-deepfake-threats): The NSA, FBI, and CISA have released a Cybersecurity Information Sheet on the rising threat of synthetic media, including deepfakes, highlighting their growing impact on sectors like the NSS, DoD, and national infrastructure. The agencies emphasize the importance of reviewing their recommended steps and best practices to address deepfake threats effectively.
+
+#### AI Technologies and Capabilities
+- [AI startup Lamini bets future on AMD's Instinct GPUs](https://www.theregister.com/2023/09/26/amd_instinct_ai_lamini/): AI startup Lamini has chosen to exclusively use AMD's Instinct GPUs for its platform that refines large language models (LLMs), setting itself apart from many competitors that rely on Nvidia's hardware. While Lamini's platform has garnered interest from major companies like Amazon and Walmart, AMD's focus on expanding its software ecosystem and forthcoming hardware upgrades aim to make its AI accelerators more attractive and accessible to developers and businesses.
+- [Vicious Self-Degradation](https://twitter.com/8teapi/status/1706520893621784780): When a frequent query is Googled, Quora identifies it, uses ChatGPT to generate an answer that may contain a hallucination, and this ChatGPT-generated response becomes the top Google answer.
+- [Inside the Matrix: Visualizing Matrix Multiplication, Attention and Beyond](https://pytorch.org/blog/inside-the-matrix/): The article introduces "mm", a visualization tool designed to display matrix multiplications (matmuls), which are foundational to machine learning models. Using three-dimensional visualizations, "mm" enables clearer understanding of complex matrix operations and compositions, especially benefiting visual thinkers, and covers various topics from basic matrix operations to the intricate workings of GPT-2 attention heads, demonstrating the benefits of this geometric approach to understanding algebraic properties in matrix computations.
+- [Can you beat a stochastic parrot?](https://parrotchess.com/): Play chess against GPT-3.5.
+
+#### Ethical and Societal Implications of AI
+- [Signal’s Meredith Whittaker: AI is fundamentally ‘a surveillance technology’](https://techcrunch.com/2023/09/25/signals-meredith-whittaker-ai-is-fundamentally-a-surveillance-technology/): Meredith Whittaker, Signal's president, emphasized at TechCrunch Disrupt 2023 that AI is fundamentally a surveillance technology, deeply intertwined with the big data and targeting industry dominated by tech giants. While acknowledging not all AI applications are exploitative, she highlighted the inherent surveillance nature of AI and the economic drivers behind facial recognition technology, noting that beneficial uses, like face blurring in Signal's app, are overshadowed by more intrusive applications driven by profit motives.
+
+#### AI in Education
+- [Student Use Cases for AI](https://hbsp.harvard.edu/inspiring-minds/student-use-cases-for-ai): Generative AI tools, particularly large language models (LLMs), present both opportunities and challenges in educational settings, offering students and educators unparalleled access to powerful AI systems. As AI becomes increasingly prevalent in classrooms, it's crucial for educators and students to understand the potential benefits, biases, and privacy concerns of AI, and to adopt best practices for interacting with these tools to ensure effective and safe usage.
+
 
 #### LLM Architectures and Applications
 - [RAG is more than just embedding search](https://jxnl.github.io/instructor/blog/2023/09/17/rag-is-more-than-just-embedding-search/) - Potential of Retrieval Augmented Generation (RAG) in LLMs.
@@ -168,6 +183,8 @@ Dive deep into the world of research with these enlightening papers:
 
 ### 📚 Tutorials & How-Tos
 
+- [How to make history with LLMs & other generative models](https://leighmariebraswell.substack.com/p/how-to-make-history-with-llms-and): The author discusses the transformative potential of Large Language Models (LLMs), highlighting promising startup ideas in areas like developer tooling and knowledge worker augmentation, while expressing skepticism about general consumer search and some SaaS replacements. On the infrastructure side, running large models locally and providing compute for model training are seen as promising, but ventures into observability and vector databases face more challenges.
+- [A poor man's guide to fine-tuning Llama 2](https://duarteocarmo.com/blog/fine-tune-llama-2-telegram): The author details the ease and efficiency of fine-tuning the Llama 2 model to simulate conversations from their personal
 - [Building a Knowledge base for custom LLMs](https://cismography.medium.com/building-a-knowledge-base-for-custom-llms-using-langchain-chroma-and-gpt4all-950906ae496d) - How to build a knowledge base for custom LLMs.
 - [Fine-Tuning LLMs: LoRA or Full-Parameter?](https://www.anyscale.com/blog/fine-tuning-llms-lora-or-full-parameter-an-in-depth-analysis-with-llama-2) - A comparison of full-parameter fine-tuning and LoRA for Llama 2 models.
 - [Building a Scalable Pipeline for LLMs and RAG](https://ai.plainenglish.io/building-a-scalable-pipeline-for-large-language-models-and-rag-an-overview-7cb93a03f657) - Constructing a scalable pipeline for LLMs and RAG.
@@ -177,6 +194,7 @@ Dive deep into the world of research with these enlightening papers:
 
 ### 📈 Research & Innovations
 
+- [MuZero: Mastering Go, chess, shogi and Atari without rules](https://www.deepmind.com/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules): DeepMind's MuZero represents a significant advancement in AI, mastering games like Go, chess, shogi, and Atari without being pre-informed of the rules, showcasing its capability to strategize in unknown environments. Going beyond previous AI models, MuZero learns only the vital aspects of its environment and combines this with a look-ahead tree search, setting new performance standards while potentially leading to applications in real-world scenarios where rules are undefined.
 - [Anand Katti](https://www.linkedin.com/posts/anand-katti-4278637_ai-genai-llm-activity-7097479600368160768-jNzj/) - LLMOps enhances the MLOps framework by introducing LLM-specific tasks.
 - [An Introduction to LLMOps: Operationalizing and Managing Large Language Models using Azure ML](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/an-introduction-to-llmops-operationalizing-and-managing-large/ba-p/3910996) - Large language models (LLMs) like GPT-4 have transformed natural language processing with their superior performance, but their real-world deployment requires a systematic approach called LLMOps.
 - [GPT-4V (ision) System Card](https://cdn.openai.com/papers/GPTV_System_Card.pdf) - GPT-4 with Vision (GPT-4V) combines text and image processing, expanding the impact of language-only systems.
