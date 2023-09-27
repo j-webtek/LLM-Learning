@@ -14,6 +14,10 @@ Links & Articles: 39.
 
 ### 🔗 Links & Articles
 
+- **[OpenAI](https://twitter.com/openai/status/1707077710047216095?s=46&t=Tn3eky5MQ9AEY1npL2msJw)**: ChatGPT can now browse the internet to provide you with current and authoritative information, complete with direct links to sources. It is no longer limited to data before September 2021.
+
+- **[You can give ChatGPT a picture of your team’s whiteboarding session and have it write the code for you.](https://twitter.com/mckaywrigley/status/1707101465922453701?s=20)**: This is absolutely insane.
+
 - **[Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)**: Mistral 7B, a 7.3B parameter model, outperforms various Llama versions on benchmarks, excels in both code and English tasks, and uses efficient attention mechanisms for better performance. Available under the Apache 2.0 license, it's easy to deploy across platforms, and a fine-tuned chat variant surpasses Llama 2 13B chat in performance.
 
 - **[Be My AI](https://www.bemyeyes.com/blog/announcing-be-my-ai)**: Be My Eyes, a platform connecting volunteers with visually impaired users, has integrated an AI feature called "Be My AI" to assist with everyday tasks and is now launching it in an open beta phase for iOS users, with an Android version in the pipeline. "Be My AI" allows users to take photos and receive detailed descriptions, proving invaluable for tasks like reading labels, organizing wardrobes, and getting visual assistance 24/7 without human intervention, though human volunteers remain available for more nuanced assistance.
@@ -23,10 +27,6 @@ Links & Articles: 39.
 - **[Vectorize: a vector database for shipping AI-powered applications to production, fast](https://blog.cloudflare.com/vectorize-vector-database-open-beta/)**: Vectorize is a new vector database from Cloudflare designed to help machine learning models "remember" and enhance AI-powered applications. It allows developers to build full-stack AI applications on Cloudflare's global network, enhancing semantic search, classification, recommendation, and anomaly detection use cases. Vectorize is in open beta and integrates with Cloudflare Workers, enabling it to power various applications, including improving LLMs' accuracy and context and supporting embeddings from platforms like OpenAI and Cohere.
 
 - **[First Impressions with GPT-4V(ision)](https://blog.roboflow.com/gpt-4-vision/)**: OpenAI has introduced GPT-4V, a multimodal extension of the GPT-4 model, allowing users to input images and voice queries. While the model excels at general image questions, providing context-aware answers, it has limitations, including inaccuracies in object detection and occasional "hallucinations" of incorrect information.
-
-- **[You can give ChatGPT a picture of your team’s whiteboarding session and have it write the code for you.](https://twitter.com/mckaywrigley/status/1707101465922453701?s=20)**: This is absolutely insane.
-
-- **[OpenAI](https://twitter.com/openai/status/1707077710047216095?s=46&t=Tn3eky5MQ9AEY1npL2msJw)**: ChatGPT can now browse the internet to provide you with current and authoritative information, complete with direct links to sources. It is no longer limited to data before September 2021.
 
 - **[Introducing New AI Experiences Across Our Family of Apps and Devices](https://about.fb.com/news/2023/09/introducing-ai-powered-assistants-characters-and-creative-tools/)**: Meta is introducing a range of AI-driven features, including AI stickers for image editing on apps like Instagram, the advanced conversational assistant 'Meta AI' for multiple platforms, and 28 additional AIs with distinct personalities, some portrayed by celebrities. As they expand AI offerings for businesses and developers, they acknowledge potential challenges and emphasize a cautious approach with built-in safeguards.
 
