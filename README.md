@@ -10,7 +10,7 @@ Projects: 10.
 Links & Articles: 43.
 
 ---
-🆕 ## Latest Additions **9/27/23**
+🆕 ## Latest Additions **9/28/23**
 
 ### 🔗 Links & Articles
 
