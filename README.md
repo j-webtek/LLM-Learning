@@ -229,7 +229,3 @@ Dive deep into the world of research with these enlightening papers:
 ## 🔖 License
 
 All content in this repository is shared under the MIT License. Please refer to the LICENSE file for more details.
-
----
-
-This is your updated README. You can copy this content and paste it directly into your README file.
