@@ -5,22 +5,34 @@ Welcome to LLM-Learning! This repository is dedicated to offering a curated coll
 ---
 
 📈 Repository Statistics
-Research Papers: 7.
-Projects: 10.
-Links & Articles: 43.
+Research Papers: 8
+
+Projects: 10
+
+Links & Articles: 52.
 
 ---
-🆕 ## Latest Additions **9/28/23**
+🆕 ## Latest Additions **10/2/23**
 
 ### 🔗 Links & Articles
 
-- **[What codegen is (actually) good for](https://www.figma.com/blog/what-codegen-is-actually-good-for/#aAkZ9)**: Codegen, the automatic generation of code based on predefined rules, is gaining popularity, with tools ranging from simple code completion in IDEs to advanced AI-driven systems. While many developers use AI for code generation, skepticism remains about its accuracy; instead of viewing codegen as a full replacement, it's best seen as an extension of a developer, assisting in the design-to-development process by suggesting suitable tools, speeding up workflows, and acting as a reference, though it won't entirely replace established team patterns.
+- **[Introduction to Flash Attention: A Breakthrough in Efficient Attention Mechanism](https://medium.com/@sthanikamsanthosh1994/introduction-to-flash-attention-a-breakthrough-in-efficient-attention-mechanism-3eb47e8962c3)**: Flash Attention is a groundbreaking advancement in attention mechanisms, offering a faster and more memory-efficient solution compared to traditional methods.
 
-- **[The next generation of smart glasses](https://www.meta.com/smart-glasses/)**: Ray-Ban and Meta collaborate on sunglasses that video record, and image capture, and can be queried via Meta’s AI
+- **[captcha with Bing](https://twitter.com/literallydenis/status/1708283962399846459)**: I've tried to read the captcha with Bing, and it is possible after some prompt-visual engineering.
 
-- **[Run any ML model from any programming language](https://carton.run/)**: Carton is a tool that packages machine learning models with metadata in a zip file without altering the original model, simplifying the model deployment process by automatically selecting the appropriate runner based on the metadata. Once packed, Carton's framework-agnostic API facilitates model inference, with the software built in Rust and offering bindings to multiple languages.
+- **[Break-A-Scene: Extracting Multiple Concepts from a Single Image](https://omriavrahami.com/break-a-scene/)**: Text-to-image model personalization seeks to incorporate user-provided concepts into models for diverse synthesis.
 
-- **[WebGPU Technical Report](https://chromium.googlesource.com/chromium/src/+/main/docs/security/research/graphics/webgpu_technical_report.md)**: WebGPU introduces extensive attack surfaces to Chrome's GPU process, including the core WebGPU, third-party Usermode Graphics Drivers, and shader compilers, emphasizing the complexity that may result in vulnerabilities. Despite significant efforts to validate input and extensive fuzzing, there remain concerns about potential vulnerabilities in areas like Dawn's use-after-frees, callbacks, the Chrome Command Buffer, and the SwiftShader JIT compiler, indicating a need for ongoing vigilance and manual audits. assistance 24/7 without human intervention, though human volunteers remain available for more nuanced assistance.
+- **[National Security Agency is starting an artificial intelligence security center](https://apnews.com/article/nsa-artificial-intelligence-security-deepfakes-f9b19dd64890884cc2b0700ddf66e666)**: The NSA is launching an AI security center to bolster defense and intelligence systems against threats.
+
+- **[Decentralized Artificial Intelligence](https://www.chaos-engineering.dev/p/decentralized-artificial-intelligence)**: The article discusses the need for decentralization in Large Language Models (LLMs) and AI.
+
+- **[Microsoft is going nuclear to power its AI ambitions](https://www.theverge.com/2023/9/26/23889956/microsoft-next-generation-nuclear-energy-smr-job-hiring)**: Microsoft is exploring the potential of next-generation nuclear reactors to power its data centers and support its AI initiatives.
+
+- **[Efficient Streaming Language Models with Attention Sinks](https://github.com/mit-han-lab/streaming-llm)** ([Research Paper](https://arxiv.org/abs/2309.17453)): Deploying LLMs in streaming applications presents challenges, including memory consumption and handling longer texts.
+
+- **[Introducing Stable LM 3B: Bringing Sustainable, High-Performance Language Models to Smart Devices](https://stability.ai/blog/stable-lm-3b-sustainable-high-performance-language-models-smart-devices)**: Stable LM 3B, a compact 3 billion parameter language model, operates efficiently on portable devices.
+
+- **[Released L2E OS v0.1 "Temple DOS" . A new OS on the block! The first OS that boots to AI!](https://twitter.com/VulcanIgnis/status/1708851772435968017)**: A new operating system that boots directly to an AI interface.
 
 ---
 
@@ -124,6 +136,10 @@ Dive deep into the world of research with these enlightening papers:
 
 ### 📈 Research & Innovations
 
+- [Introduction to Flash Attention: A Breakthrough in Efficient Attention Mechanism](https://medium.com/@sthanikamsanthosh1994/introduction-to-flash-attention-a-breakthrough-in-efficient-attention-mechanism-3eb47e8962c3): Flash Attention is a groundbreaking advancement in attention mechanisms, offering a faster and more memory-efficient solution compared to traditional methods.
+- [Break-A-Scene: Extracting Multiple Concepts from a Single Image](https://omriavrahami.com/break-a-scene/): Text-to-image model personalization seeks to incorporate user-provided concepts into models for diverse synthesis.
+- [Efficient Streaming Language Models with Attention Sinks](https://github.com/mit-han-lab/streaming-llm) ([Research Paper](https://arxiv.org/abs/2309.17453)): Deploying LLMs in streaming applications presents challenges, including memory consumption and handling longer texts.
+- [Introducing Stable LM 3B: Bringing Sustainable, High-Performance Language Models to Smart Devices](https://stability.ai/blog/stable-lm-3b-sustainable-high-performance-language-models-smart-devices): Stable LM 3B, a compact 3 billion parameter language model, operates efficiently on portable devices.
 - [MuZero: Mastering Go, chess, shogi and Atari without rules](https://www.deepmind.com/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules): DeepMind's MuZero represents a significant advancement in AI, mastering games like Go, chess, shogi, and Atari without being pre-informed of the rules, showcasing its capability to strategize in unknown environments. Going beyond previous AI models, MuZero learns only the vital aspects of its environment and combines this with a look-ahead tree search, setting new performance standards while potentially leading to applications in real-world scenarios where rules are undefined.
 - [Anand Katti](https://www.linkedin.com/posts/anand-katti-4278637_ai-genai-llm-activity-7097479600368160768-jNzj/) - LLMOps enhances the MLOps framework by introducing LLM-specific tasks.
 - [An Introduction to LLMOps: Operationalizing and Managing Large Language Models using Azure ML](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/an-introduction-to-llmops-operationalizing-and-managing-large/ba-p/3910996) - Large language models (LLMs) like GPT-4 have transformed natural language processing with their superior performance, but their real-world deployment requires a systematic approach called LLMOps.
@@ -139,6 +155,9 @@ Dive deep into the world of research with these enlightening papers:
 - [NSA, FBI, and CISA Release Cybersecurity Information Sheet on Deepfake Threats](https://www.cisa.gov/news-events/alerts/2023/09/12/nsa-fbi-and-cisa-release-cybersecurity-information-sheet-deepfake-threats): The NSA, FBI, and CISA have released a Cybersecurity Information Sheet on the rising threat of synthetic media, including deepfakes, highlighting their growing impact on sectors like the NSS, DoD, and national infrastructure. The agencies emphasize the importance of reviewing their recommended steps and best practices to address deepfake threats effectively.
 
 #### AI Technologies and Capabilities
+- [Released L2E OS v0.1 "Temple DOS" . A new OS on the block! The first OS that boots to AI!](https://twitter.com/VulcanIgnis/status/1708851772435968017): A new operating system that boots directly to an AI interface.
+- [Decentralized Artificial Intelligence](https://www.chaos-engineering.dev/p/decentralized-artificial-intelligence): The article discusses the need for decentralization in Large Language Models (LLMs) and AI.
+- [Microsoft is going nuclear to power its AI ambitions](https://www.theverge.com/2023/9/26/23889956/microsoft-next-generation-nuclear-energy-smr-job-hiring): Microsoft is exploring the potential of next-generation nuclear reactors to power its data centers and support its AI initiatives.
 - [Run any ML model from any programming language](https://carton.run/): Carton is a tool that packages machine learning models with metadata in a zip file without altering the original model, simplifying the model deployment process by automatically selecting the appropriate runner based on the metadata. Once packed, Carton's framework-agnostic API facilitates model inference, with the software built in Rust and offering bindings to multiple languages.
 - [The next generation of smart glasses](https://www.meta.com/smart-glasses/): Ray-Ban and Meta collaborate on sunglasses that video record, and image capture, and can be queried via Meta’s AI
 - [Vectorize: a vector database for shipping AI-powered applications to production, fast](https://blog.cloudflare.com/vectorize-vector-database-open-beta/): Vectorize is a new vector database from Cloudflare designed to help machine learning models "remember" and enhance AI-powered applications. It allows developers to build full-stack AI applications on Cloudflare's global network, enhancing semantic search, classification, recommendation, and anomaly detection use-cases. Vectorize is in open beta and integrates with Cloudflare Workers, enabling it to power various applications, including improving LLMs' accuracy and context, and supporting embeddings from platforms like OpenAI and Cohere.
@@ -151,7 +170,8 @@ Dive deep into the world of research with these enlightening papers:
 - [Can you beat a stochastic parrot?](https://parrotchess.com/): Play chess against GPT-3.5.
 
 #### Ethical and Societal Implications of AI
-- **[WebGPU Technical Report](https://chromium.googlesource.com/chromium/src/+/main/docs/security/research/graphics/webgpu_technical_report.md)**: WebGPU introduces extensive attack surfaces to Chrome's GPU process, including the core WebGPU, third-party Usermode Graphics Drivers, and shader compilers, emphasizing the complexity that may result in vulnerabilities. Despite significant efforts to validate input and extensive fuzzing, there remain concerns about potential vulnerabilities in areas like Dawn's use-after-frees, callbacks, the Chrome Command Buffer, and the SwiftShader JIT compiler, indicating a need for ongoing vigilance and manual audits. assistance 24/7 without human intervention, though human volunteers remain available for more nuanced assistance.
+- [National Security Agency is starting an artificial intelligence security center](https://apnews.com/article/nsa-artificial-intelligence-security-deepfakes-f9b19dd64890884cc2b0700ddf66e666): The NSA is launching an AI security center to bolster defense and intelligence systems against threats.
+- [WebGPU Technical Report](https://chromium.googlesource.com/chromium/src/+/main/docs/security/research/graphics/webgpu_technical_report.md): WebGPU introduces extensive attack surfaces to Chrome's GPU process, including the core WebGPU, third-party Usermode Graphics Drivers, and shader compilers, emphasizing the complexity that may result in vulnerabilities. Despite significant efforts to validate input and extensive fuzzing, there remain concerns about potential vulnerabilities in areas like Dawn's use-after-frees, callbacks, the Chrome Command Buffer, and the SwiftShader JIT compiler, indicating a need for ongoing vigilance and manual audits. assistance 24/7 without human intervention, though human volunteers remain available for more nuanced assistance.
 - [Be My AI](https://www.bemyeyes.com/blog/announcing-be-my-ai): Be My Eyes, a platform connecting volunteers with visually impaired users, has integrated an AI feature called "Be My AI" to assist with everyday tasks and is now launching it in an open beta phase for iOS users, with an Android version in the pipeline. "Be My AI" allows users to take photos and receive detailed descriptions, proving invaluable for tasks like reading labels, organizing wardrobes, and getting visual assistance 24/7 without human intervention, though human volunteers remain available for more nuanced assistance.
 - [Signal’s Meredith Whittaker: AI is fundamentally ‘a surveillance technology’](https://techcrunch.com/2023/09/25/signals-meredith-whittaker-ai-is-fundamentally-a-surveillance-technology/): Meredith Whittaker, Signal's president, emphasized at TechCrunch Disrupt 2023 that AI is fundamentally a surveillance technology, deeply intertwined with the big data and targeting industry dominated by tech giants. While acknowledging not all AI applications are exploitative, she highlighted the inherent surveillance nature of AI and the economic drivers behind facial recognition technology, noting that beneficial uses, like face blurring in Signal's app, are overshadowed by more intrusive applications driven by profit motives.
 
@@ -169,6 +189,7 @@ Dive deep into the world of research with these enlightening papers:
 - [Why You (Probably) Don’t Need to Fine-tune an LLM](https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/) - This article guides those building applications with Large Language Models (LLMs), emphasizing that while many consider fine-tuning LLMs to enhance performance, there are often simpler and more effective alternatives.
 
 #### AI in Multimedia and Collaboration
+- [captcha with Bing](https://twitter.com/literallydenis/status/1708283962399846459): I've tried to read the captcha with Bing, and it is possible after some prompt-visual engineering.
 - [What codegen is (actually) good for](https://www.figma.com/blog/what-codegen-is-actually-good-for/#aAkZ9): Codegen, the automatic generation of code based on predefined rules, is gaining popularity, with tools ranging from simple code completion in IDEs to advanced AI-driven systems. While many developers use AI for code generation, skepticism remains about its accuracy; instead of viewing codegen as a full replacement, it's best seen as an extension of a developer, assisting in the design-to-development process by suggesting suitable tools, speeding up workflows, and acting as a reference, though it won't entirely replace established team patterns.
 - [Introducing New AI Experiences Across Our Family of Apps and Devices](https://about.fb.com/news/2023/09/introducing-ai-powered-assistants-characters-and-creative-tools/): Meta is introducing a range of AI-driven features, including AI stickers for image editing on apps like Instagram, the advanced conversational assistant 'Meta AI' for multiple platforms, and 28 additional AIs with distinct personalities, some portrayed by celebrities. As they expand AI offerings for businesses and developers, they acknowledge potential challenges and emphasize a cautious approach with built-in safeguards.
 - [Getty made an AI generator that only trained on its licensed images](https://www.theverge.com/2023/9/25/23884679/getty-ai-generative-image-platform-launch) - Getty Images collaborated with Nvidia to introduce a tool allowing users to produce images from its extensive library, ensuring full copyright indemnification.
