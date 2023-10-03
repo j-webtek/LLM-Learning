@@ -13,29 +13,19 @@ Projects: 10
 Links & Articles: 52.
 
 ---
-🆕 ## Latest Additions **10/2/23**
+🆕 ## Latest Additions **10/03/23**
 
-Today's advancements in AI and technology have showcased a plethora of innovations and strategic moves. The introduction of Flash Attention promises to revolutionize attention mechanisms, making them faster and more memory-efficient, a boon for NLP tasks. Meanwhile, the capabilities of AI continue to expand, as demonstrated by Bing's ability to interpret captchas through prompt-visual engineering. On the research front, a new approach in text-to-image model personalization has been introduced, emphasizing textual scene decomposition for enhanced image synthesis. In a significant strategic move, the NSA is establishing an AI security center to fortify defenses against global threats, with a keen focus on AI model protection. The AI community is also buzzing about the potential of decentralizing Large Language Models, advocating for a blockchain-like system to ensure data privacy and reproducibility. Microsoft's exploration into nuclear energy for its AI endeavors signifies the tech giant's commitment to sustainable and powerful computing. In the realm of LLMs, the StreamingLLM framework is breaking barriers, allowing for efficient processing of infinite sequence lengths. Lastly, the release of Stable LM 3B, a compact yet powerful language model, is set to bring high-performance AI capabilities to portable devices. These insights underscore the rapid pace of AI development and its ever-growing impact across various sectors.
+Today's insights revolve around advancements in various technological domains. Google is enhancing its suite of tools with Graph Mining, focusing on tasks that can be represented as graph problems, which are pivotal for many of its flagship products. In the realm of AI, OnnxStream emerges as a promising inference library, prioritizing memory efficiency and offering a unique approach to model weight management. The database landscape is witnessing a paradigm shift, with the integration of vector search becoming ubiquitous, challenging the niche of specialized "vector databases" as major players like Cloudflare and Oracle step into the arena. Lastly, the MotionLM study showcases a novel approach to multi-agent motion prediction, setting new benchmarks in the Waymo Open Motion Dataset.
 
 ### 🔗 Links & Articles
 
-- **[Introduction to Flash Attention: A Breakthrough in Efficient Attention Mechanism](https://medium.com/@sthanikamsanthosh1994/introduction-to-flash-attention-a-breakthrough-in-efficient-attention-mechanism-3eb47e8962c3)**: Flash Attention is a groundbreaking advancement in attention mechanisms, offering a faster and more memory-efficient solution compared to traditional methods.
+- **[Graph-mining](https://github.com/google/graph-mining)**: Google's Graph Mining tools are designed for tasks with inherent graph structures, and are integral to various Google products like Search, YouTube, AdWords, Play, Maps, and Social.
 
-- **[captcha with Bing](https://twitter.com/literallydenis/status/1708283962399846459)**: I've tried to read the captcha with Bing, and it is possible after some prompt-visual engineering.
+- **[OnnxStream](https://github.com/vitoplantamura/OnnxStream/tree/846da873570a737b49154e8f835704264864b0fe)**: OnnxStream is a specialized inference library designed to minimize memory consumption, distinctively decoupling the inference engine from the model weight provision component.
 
-- **[Break-A-Scene: Extracting Multiple Concepts from a Single Image](https://omriavrahami.com/break-a-scene/)**: Text-to-image model personalization seeks to incorporate user-provided concepts into models for diverse synthesis.
+- **[Vector database is not a separate database category](https://nextword.substack.com/p/vector-database-is-not-a-separate)**: The future of databases is leaning towards universal integration of vector search, blurring the distinction between specialized "vector databases" and traditional ones.
 
-- **[National Security Agency is starting an artificial intelligence security center](https://apnews.com/article/nsa-artificial-intelligence-security-deepfakes-f9b19dd64890884cc2b0700ddf66e666)**: The NSA is launching an AI security center to bolster defense and intelligence systems against threats.
-
-- **[Decentralized Artificial Intelligence](https://www.chaos-engineering.dev/p/decentralized-artificial-intelligence)**: The article discusses the need for decentralization in Large Language Models (LLMs) and AI.
-
-- **[Microsoft is going nuclear to power its AI ambitions](https://www.theverge.com/2023/9/26/23889956/microsoft-next-generation-nuclear-energy-smr-job-hiring)**: Microsoft is exploring the potential of next-generation nuclear reactors to power its data centers and support its AI initiatives.
-
-- **[Efficient Streaming Language Models with Attention Sinks](https://github.com/mit-han-lab/streaming-llm)** ([Research Paper](https://arxiv.org/abs/2309.17453)): Deploying LLMs in streaming applications presents challenges, including memory consumption and handling longer texts.
-
-- **[Introducing Stable LM 3B: Bringing Sustainable, High-Performance Language Models to Smart Devices](https://stability.ai/blog/stable-lm-3b-sustainable-high-performance-language-models-smart-devices)**: Stable LM 3B, a compact 3 billion parameter language model, operates efficiently on portable devices.
-
-- **[Released L2E OS v0.1 "Temple DOS" . A new OS on the block! The first OS that boots to AI!](https://twitter.com/VulcanIgnis/status/1708851772435968017)**: A new operating system that boots directly to an AI interface.
+- **[MotionLM: Multi-Agent Motion Forecasting as Language Modeling](https://arxiv.org/abs/2309.16534)**: The study introduces MotionLM, a model that predicts multi-agent motion by treating trajectories as sequences of discrete motion tokens, akin to a language modeling task.
 
 ---
 
@@ -64,6 +54,10 @@ For a pictorial insight:
 Dive deep into the world of research with these enlightening papers:
 
 ### 💼 Applications and Deployment
+
+- **MotionLM: Multi-Agent Motion Forecasting as Language Modeling**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2309.16534)
+  - 📝 The study introduces MotionLM, a model that predicts multi-agent motion by treating trajectories as sequences of discrete motion tokens, akin to a language modeling task.
 
 - **Large Language Models for Compiler Optimization**
   - 📜 [Read the Paper](https://arxiv.org/pdf/2309.07062.pdf)
@@ -139,6 +133,10 @@ Dive deep into the world of research with these enlightening papers:
 
 ### 📈 Research & Innovations
 
+- [Introduction to Flash Attention: A Breakthrough in Efficient Attention Mechanism](https://medium.com/@sthanikamsanthosh1994/introduction-to-flash-attention-a-breakthrough-in-efficient-attention-mechanism-3eb47e8962c3)
+- [Break-A-Scene: Extracting Multiple Concepts from a Single Image](https://omriavrahami.com/break-a-scene/)
+- [Efficient Streaming Language Models with Attention Sinks](https://github.com/mit-han-lab/streaming-llm) ([Research Paper](https://arxiv.org/abs/2309.17453))
+- [Introducing Stable LM 3B: Bringing Sustainable, High-Performance Language Models to Smart Devices](https://stability.ai/blog/stable-lm-3b-sustainable-high-performance-language-models-smart-devices)
 - [Introduction to Flash Attention: A Breakthrough in Efficient Attention Mechanism](https://medium.com/@sthanikamsanthosh1994/introduction-to-flash-attention-a-breakthrough-in-efficient-attention-mechanism-3eb47e8962c3): Flash Attention is a groundbreaking advancement in attention mechanisms, offering a faster and more memory-efficient solution compared to traditional methods.
 - [Break-A-Scene: Extracting Multiple Concepts from a Single Image](https://omriavrahami.com/break-a-scene/): Text-to-image model personalization seeks to incorporate user-provided concepts into models for diverse synthesis.
 - [Efficient Streaming Language Models with Attention Sinks](https://github.com/mit-han-lab/streaming-llm) ([Research Paper](https://arxiv.org/abs/2309.17453)): Deploying LLMs in streaming applications presents challenges, including memory consumption and handling longer texts.
@@ -153,11 +151,14 @@ Dive deep into the world of research with these enlightening papers:
 ### 🌌 General AI Insights
 
 #### AI Model Philosophies and Debates
+- [Vector database is not a separate database category](https://nextword.substack.com/p/vector-database-is-not-a-separate)
 - [First Impressions with GPT-4V(ision)](https://blog.roboflow.com/gpt-4-vision/): OpenAI has introduced GPT-4V, a multimodal extension of the GPT-4 model, allowing users to input images and voice queries. While the model excels at general image questions, providing context-aware answers, it has limitations, including inaccuracies in object detection and occasional "hallucinations" of incorrect information.
 - [Why Open Source AI Will Win](https://varunshenoy.substack.com/p/why-open-source-ai-will-win) - The debate between open-source and closed-source AI models.
 - [NSA, FBI, and CISA Release Cybersecurity Information Sheet on Deepfake Threats](https://www.cisa.gov/news-events/alerts/2023/09/12/nsa-fbi-and-cisa-release-cybersecurity-information-sheet-deepfake-threats): The NSA, FBI, and CISA have released a Cybersecurity Information Sheet on the rising threat of synthetic media, including deepfakes, highlighting their growing impact on sectors like the NSS, DoD, and national infrastructure. The agencies emphasize the importance of reviewing their recommended steps and best practices to address deepfake threats effectively.
 
 #### AI Technologies and Capabilities
+- [Graph-mining](https://github.com/google/graph-mining): Google's tools for tasks with inherent graph structures, used in products like Search, YouTube, and Maps.
+- [OnnxStream](https://github.com/vitoplantamura/OnnxStream/tree/846da873570a737b49154e8f835704264864b0fe): A specialized inference library designed to minimize memory consumption.
 - [Released L2E OS v0.1 "Temple DOS" . A new OS on the block! The first OS that boots to AI!](https://twitter.com/VulcanIgnis/status/1708851772435968017): A new operating system that boots directly to an AI interface.
 - [Decentralized Artificial Intelligence](https://www.chaos-engineering.dev/p/decentralized-artificial-intelligence): The article discusses the need for decentralization in Large Language Models (LLMs) and AI.
 - [Microsoft is going nuclear to power its AI ambitions](https://www.theverge.com/2023/9/26/23889956/microsoft-next-generation-nuclear-energy-smr-job-hiring): Microsoft is exploring the potential of next-generation nuclear reactors to power its data centers and support its AI initiatives.
