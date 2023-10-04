@@ -6,11 +6,11 @@ Welcome to LLM-Learning! This repository is dedicated to offering a curated coll
 
 📈 Repository Statistics
 
-Research Papers: 9
+Research Papers: 12
 
-Projects: 10
+Projects: 11
 
-Links & Articles: 55.
+Links & Articles: 57.
 
 ---
 🆕 ## Latest Additions **10/04/23**
@@ -152,6 +152,7 @@ Dive deep into the world of research with these enlightening papers:
 - 🌟 **LargeLanguageModelsProjects** - A collection of llama models in different configurations. [Explore](https://github.com/MuhammadMoinFaisal/LargeLanguageModelsProjects/blob/main/Chat%20with%20Multiple%20Documents/Chat_with_Multiple_Documents_Llama2_OpenAI_Chroma_comp.ipynb).
 
 #### Toolkits and Utilities
+- 🌟 **AutoGen** - AutoGen is a tool designed for building next-gen LLM applications centered on multi-agent conversations, streamlining the orchestration, automation, and optimization of complex LLM workflows. [Check Out](https://microsoft.github.io/autogen/docs/getting-started)
 - 🌟 **LiteLLM** - Manages inputs to the provider's completion and embedding endpoints. [Discover](https://github.com/BerriAI/litellm).
 - 🌟 **AutoGPT** - A modular toolkit for AI agents. [Explore on GitHub](https://github.com/Significant-Gravitas/AutoGPT).
 - 🌟 **localGPT** - Interact with documents locally ensuring data privacy. [Check it out on GitHub](https://github.com/PromtEngineer/localGPT).
