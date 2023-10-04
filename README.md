@@ -13,19 +13,38 @@ Projects: 10
 Links & Articles: 55.
 
 ---
-🆕 ## Latest Additions **10/03/23**
+🆕 ## Latest Additions **10/04/23**
 
-Today's insights revolve around advancements in various technological domains. Google is enhancing its suite of tools with Graph Mining, focusing on tasks that can be represented as graph problems, which are pivotal for many of its flagship products. In the realm of AI, OnnxStream emerges as a promising inference library, prioritizing memory efficiency and offering a unique approach to model weight management. The database landscape is witnessing a paradigm shift, with the integration of vector search becoming ubiquitous, challenging the niche of specialized "vector databases" as major players like Cloudflare and Oracle step into the arena. Lastly, the MotionLM study showcases a novel approach to multi-agent motion prediction, setting new benchmarks in the Waymo Open Motion Dataset.
+Recent advancements in AI and technology encompass a range of innovations. Neural networks are being developed inspired by biological self-organizing processes, emphasizing the potential of self-organization. Large language models, such as Llama-2, are demonstrating a deeper understanding of space and time, moving beyond mere statistical learning. New techniques in language modeling introduce "pause tokens" to enhance response generation, showing promise in reasoning and question-answering tasks. The integration of large models in robotics suggests the emergence of adaptable "generalist" robotic policies. Tools like AutoGen are revolutionizing multi-agent LLM applications by optimizing complex workflows. The vector database landscape in 2023 is evolving, with platforms like Milvus and Pinecone leading in various aspects. Lastly, Meta Platforms is venturing into generative AI tools, marking a significant step in AI-driven content creation for advertisers.
 
 ### 🔗 Links & Articles
 
-- **[Graph-mining](https://github.com/google/graph-mining)**: Google's Graph Mining tools are designed for tasks with inherent graph structures, and are integral to various Google products like Search, YouTube, AdWords, Play, Maps, and Social.
+- **[Picking a vector database: a comparison and guide for 2023](https://benchmark.vectorview.ai/vectordbs.html)**
+  - 📝 The landscape of vector databases in 2023 is diverse, with each offering unique features catering to different needs. Milvus and Pinecone stand out for their performance and flexibility.
 
-- **[OnnxStream](https://github.com/vitoplantamura/OnnxStream/tree/846da873570a737b49154e8f835704264864b0fe)**: OnnxStream is a specialized inference library designed to minimize memory consumption, distinctively decoupling the inference engine from the model weight provision component.
+- **[Meta starts rolling out generative AI tools for all advertisers](https://www.reuters.com/technology/meta-starts-rolling-out-generative-ai-tools-all-advertisers-2023-10-04/)**
+  - 📝 Meta Platforms is introducing generative AI tools for advertisers, marking its initial venture into integrating generative AI technology.
 
-- **[Vector database is not a separate database category](https://nextword.substack.com/p/vector-database-is-not-a-separate)**: The future of databases is leaning towards universal integration of vector search, blurring the distinction between specialized "vector databases" and traditional ones.
+### 📄 Research Papers
 
-- **[MotionLM: Multi-Agent Motion Forecasting as Language Modeling](https://arxiv.org/abs/2309.16534)**: The study introduces MotionLM, a model that predicts multi-agent motion by treating trajectories as sequences of discrete motion tokens, akin to a language modeling task.
+- **Towards Self-Assembling Artificial Neural Networks through Neural Developmental Programs**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2307.08197)
+  - 📝 This paper explores the creation of neural networks inspired by the self-organizing developmental processes seen in biological nervous systems.
+
+- **Language Models Represent Space and Time**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2310.02207)
+  - 📝 Large language models (LLMs) like Llama-2 exhibit capabilities suggesting they learn coherent world models, understanding linear dimensions of space and time.
+
+- **Think before you speak: Training Language Models with Pause Tokens**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2310.02226)
+  - 📝 Language models traditionally generate responses token-by-token, but introducing a "pause token" allows the model to process additional computation before finalizing an answer.
+
+### 🛠 Projects
+
+- **AutoGen**
+  - 🌐 [Visit the Project](https://microsoft.github.io/autogen/docs/getting-started)
+  - 📝 AutoGen is a tool designed for building next-gen LLM applications centered on multi-agent conversations, streamlining the orchestration, automation, and optimization of complex LLM workflows.
+
 
 ---
 
@@ -55,6 +74,10 @@ Dive deep into the world of research with these enlightening papers:
 
 ### 💼 Applications and Deployment
 
+- **Think before you speak: Training Language Models with Pause Tokens**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2310.02226)
+  - 📝 Language models traditionally generate responses token-by-token but introducing a learnable "pause token" allows the model to process additional computation before finalizing an answer.
+  - 
 - **MotionLM: Multi-Agent Motion Forecasting as Language Modeling**
   - 📜 [Read the Paper](https://arxiv.org/abs/2309.16534)
   - 📝 The study introduces MotionLM, a model that predicts multi-agent motion by treating trajectories as sequences of discrete motion tokens, akin to a language modeling task.
@@ -69,6 +92,10 @@ Dive deep into the world of research with these enlightening papers:
 
 ### 📊 Data Handling and Annotation
 
+- **Language Models Represent Space and Time**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2310.02207)
+  - 📝 Large language models (LLMs) like Llama-2 exhibit capabilities that suggest they learn coherent world models rather than just superficial statistics.
+  - 
 - **AnnoLLM: Making Large Language Models to Be Better**
   - 📜 [Read the Paper](https://www.semanticscholar.org/reader/70da4fb798a86cbe8cad96c27ced0415885bbd9d)
   - 📝 Large language models (LLMs) like GPT-3.5 can serve as effective crowdsourced annotators when given sufficient guidance and example demonstrations.
@@ -88,6 +115,10 @@ Dive deep into the world of research with these enlightening papers:
   - 📝 This research introduces a method to generate colorized novel views from input grayscale multi-view images using Neural Radiance Fields (NeRF). The proposed distillation-based technique effectively transfers color knowledge from 2D colorization methods to the radiance field network, ensuring 3D consistency and producing superior results in both indoor and outdoor scenes compared to other methods.
 
 ### 🚀 Retrieval Techniques
+
+- **Towards Self-Assembling Artificial Neural Networks through Neural Developmental Programs**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2307.08197)
+  - 📝 This paper explores the creation of neural networks inspired by the self-organizing developmental processes seen in biological nervous systems.
 
 - **Precise Zero-Shot Dense Retrieval without Relevance Labels**
   - 📜 [Read the Paper](https://aclanthology.org/2023.acl-long.99.pdf)
@@ -132,7 +163,7 @@ Dive deep into the world of research with these enlightening papers:
 ## 🔗 Links & Articles
 
 ### 📈 Research & Innovations
-
+- [AutoGen](https://microsoft.github.io/autogen/docs/getting-started): AutoGen is a tool designed for building next-gen LLM applications centered on multi-agent conversations, streamlining the orchestration, automation, and optimization of complex LLM workflows. It offers customizable conversation patterns, a variety of pre-built systems across domains, and an enhanced inference API that integrates features like performance tuning, API unification, and advanced usage patterns.
 - [Introduction to Flash Attention: A Breakthrough in Efficient Attention Mechanism](https://medium.com/@sthanikamsanthosh1994/introduction-to-flash-attention-a-breakthrough-in-efficient-attention-mechanism-3eb47e8962c3)
 - [Break-A-Scene: Extracting Multiple Concepts from a Single Image](https://omriavrahami.com/break-a-scene/)
 - [Efficient Streaming Language Models with Attention Sinks](https://github.com/mit-han-lab/streaming-llm) ([Research Paper](https://arxiv.org/abs/2309.17453))
@@ -157,6 +188,7 @@ Dive deep into the world of research with these enlightening papers:
 - [NSA, FBI, and CISA Release Cybersecurity Information Sheet on Deepfake Threats](https://www.cisa.gov/news-events/alerts/2023/09/12/nsa-fbi-and-cisa-release-cybersecurity-information-sheet-deepfake-threats): The NSA, FBI, and CISA have released a Cybersecurity Information Sheet on the rising threat of synthetic media, including deepfakes, highlighting their growing impact on sectors like the NSS, DoD, and national infrastructure. The agencies emphasize the importance of reviewing their recommended steps and best practices to address deepfake threats effectively.
 
 #### AI Technologies and Capabilities
+- [Picking a vector database: a comparison and guide for 2023](https://benchmark.vectorview.ai/vectordbs.html): The landscape of vector databases in 2023 is diverse, with each offering unique features catering to different needs. While Milvus stands out in performance and community strength, Pinecone shines in developer experience and hosting; the ideal choice varies based on project specifics, budget, and preferences, with the author leaning towards Pinecone and Milvus for their performance and flexibility.
 - [Graph-mining](https://github.com/google/graph-mining): Google's tools for tasks with inherent graph structures, used in products like Search, YouTube, and Maps.
 - [OnnxStream](https://github.com/vitoplantamura/OnnxStream/tree/846da873570a737b49154e8f835704264864b0fe): A specialized inference library designed to minimize memory consumption.
 - [Released L2E OS v0.1 "Temple DOS" . A new OS on the block! The first OS that boots to AI!](https://twitter.com/VulcanIgnis/status/1708851772435968017): A new operating system that boots directly to an AI interface.
@@ -193,6 +225,7 @@ Dive deep into the world of research with these enlightening papers:
 - [Why You (Probably) Don’t Need to Fine-tune an LLM](https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/) - This article guides those building applications with Large Language Models (LLMs), emphasizing that while many consider fine-tuning LLMs to enhance performance, there are often simpler and more effective alternatives.
 
 #### AI in Multimedia and Collaboration
+- [Meta starts rolling out generative AI tools for all advertisers](https://www.reuters.com/technology/meta-starts-rolling-out-generative-ai-tools-all-advertisers-2023-10-04/): Meta Platforms is introducing generative AI tools for advertisers, allowing them to create content such as image backgrounds and text variations. This move, marking Meta's initial venture into integrating generative AI technology, will also soon enable businesses to use AI for messaging on platforms like Messenger and WhatsApp.
 - [captcha with Bing](https://twitter.com/literallydenis/status/1708283962399846459): I've tried to read the captcha with Bing, and it is possible after some prompt-visual engineering.
 - [What codegen is (actually) good for](https://www.figma.com/blog/what-codegen-is-actually-good-for/#aAkZ9): Codegen, the automatic generation of code based on predefined rules, is gaining popularity, with tools ranging from simple code completion in IDEs to advanced AI-driven systems. While many developers use AI for code generation, skepticism remains about its accuracy; instead of viewing codegen as a full replacement, it's best seen as an extension of a developer, assisting in the design-to-development process by suggesting suitable tools, speeding up workflows, and acting as a reference, though it won't entirely replace established team patterns.
 - [Introducing New AI Experiences Across Our Family of Apps and Devices](https://about.fb.com/news/2023/09/introducing-ai-powered-assistants-characters-and-creative-tools/): Meta is introducing a range of AI-driven features, including AI stickers for image editing on apps like Instagram, the advanced conversational assistant 'Meta AI' for multiple platforms, and 28 additional AIs with distinct personalities, some portrayed by celebrities. As they expand AI offerings for businesses and developers, they acknowledge potential challenges and emphasize a cautious approach with built-in safeguards.
