@@ -6,44 +6,49 @@ Welcome to LLM-Learning! This repository is dedicated to offering a curated coll
 
 📈 Repository Statistics
 
-Research Papers: 12
+Research Papers: 14
 
 Projects: 11
 
-Links & Articles: 57.
+Links & Articles: 63.
 
 ---
-🆕 ## Latest Additions **10/04/23**
+🆕 ## Latest Additions **10/05/23**
 
-Recent advancements in AI and technology encompass a range of innovations. Neural networks are being developed inspired by biological self-organizing processes, emphasizing the potential of self-organization. Large language models, such as Llama-2, are demonstrating a deeper understanding of space and time, moving beyond mere statistical learning. New techniques in language modeling introduce "pause tokens" to enhance response generation, showing promise in reasoning and question-answering tasks. The integration of large models in robotics suggests the emergence of adaptable "generalist" robotic policies. Tools like AutoGen are revolutionizing multi-agent LLM applications by optimizing complex workflows. The vector database landscape in 2023 is evolving, with platforms like Milvus and Pinecone leading in various aspects. Lastly, Meta Platforms is venturing into generative AI tools, marking a significant step in AI-driven content creation for advertisers.
+Microsoft is integrating Copilot into OneDrive, offering offline functionality, AI-driven file organization, and enhanced security, with a rollout starting in December. OpenAI believes AI system training is covered by fair use and urges clarity in copyright regulations to support AI innovation. Startups are advised to ensure their AI products offer unique advantages, while AI will increasingly influence judgment-based tasks. GitHub Copilot, a code generation tool, has been found to produce code with security weaknesses in 35.8% of cases. In machine learning, mlc's speed is unmatched, but its quality is questionable, while CTranslate2 is user-friendly, and vLLM is fast but may face licensing issues. Tim Kellogg asserts that LLMs like ChatGPT are more interpretable than traditional ML models. AI tools like Imagetwin are surpassing human experts in detecting image manipulation in research papers. JVector is a Java-based vector search engine optimized for speed and efficiency. Lastly, a study on transformers presents a geometric perspective, illustrating their operation on a hyper-sphere.
 
 ### 🔗 Links & Articles
 
-- **[Picking a vector database: a comparison and guide for 2023](https://benchmark.vectorview.ai/vectordbs.html)**
-  - 📝 The landscape of vector databases in 2023 is diverse, with each offering unique features catering to different needs. Milvus and Pinecone stand out for their performance and flexibility.
+- **[AI beats human sleuth at finding problematic images in research papers](https://www.nature.com/articles/d41586-023-02920-y)**
+  - 📝 AI tools like Imagetwin are being used to detect image manipulation in research papers, emphasizing the importance of human oversight.
+    
+- **[Microsoft introduces AI meddling to your files with Copilot in OneDrive](https://www.theregister.com/2023/10/04/onedrive_to_acquire_copilot_skills/)**
+  - 📝 Microsoft is set to revamp OneDrive with AI-driven features, with some rolling out in December and others in early 2024.
 
-- **[Meta starts rolling out generative AI tools for all advertisers](https://www.reuters.com/technology/meta-starts-rolling-out-generative-ai-tools-all-advertisers-2023-10-04/)**
-  - 📝 Meta Platforms is introducing generative AI tools for advertisers, marking its initial venture into integrating generative AI technology.
+- **[Before the United States Patent and Trademark Office, Department of Commerce](https://www.uspto.gov/sites/default/files/documents/OpenAI_RFC-84-FR-58141.pdf)**
+  - 📝 OpenAI stresses the importance of fair use in AI training and urges clarity in copyright regulations to support AI innovation.
+
+- **[Intercom on Product: Product strategy in the age of AI](https://www.intercom.com/blog/videos/intercom-on-product-ep21/)**
+  - 📝 AI-driven products should offer unique advantages, and AI will play a significant role in tasks requiring judgment.
 
 ### 📄 Research Papers
+- **[Security Weaknesses of Copilot Generated Code in GitHub](https://arxiv.org/abs/2310.02059)**
+  - 📝 GitHub Copilot's code generation poses security challenges, with 35.8% of generated code snippets containing security weaknesses.
 
-- **Towards Self-Assembling Artificial Neural Networks through Neural Developmental Programs**
-  - 📜 [Read the Paper](https://arxiv.org/abs/2307.08197)
-  - 📝 This paper explores the creation of neural networks inspired by the self-organizing developmental processes seen in biological nervous systems.
-
-- **Language Models Represent Space and Time**
-  - 📜 [Read the Paper](https://arxiv.org/abs/2310.02207)
-  - 📝 Large language models (LLMs) like Llama-2 exhibit capabilities suggesting they learn coherent world models, understanding linear dimensions of space and time.
-
-- **Think before you speak: Training Language Models with Pause Tokens**
-  - 📜 [Read the Paper](https://arxiv.org/abs/2310.02226)
-  - 📝 Language models traditionally generate responses token-by-token, but introducing a "pause token" allows the model to process additional computation before finalizing an answer.
+- **[Traveling Words: A Geometric Interpretation of Transformers](https://arxiv.org/abs/2309.07315)**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2309.07315)
+  - 📝 The paper offers a geometric perspective on transformers, illustrating their operation on a hyper-sphere.
 
 ### 🛠 Projects
 
-- **AutoGen**
-  - 🌐 [Visit the Project](https://microsoft.github.io/autogen/docs/getting-started)
-  - 📝 AutoGen is a tool designed for building next-gen LLM applications centered on multi-agent conversations, streamlining the orchestration, automation, and optimization of complex LLM workflows.
+- **[JVector](https://github.com/jbellis/jvector)**
+  - 🌐 [Visit the Project](https://github.com/jbellis/jvector)
+  - 📝 JVector is a Java-based vector search engine optimized for speed, memory efficiency, and concurrent operations.
+    
+- **[LLMs are Interpretable](https://timkellogg.me/blog/2023/10/01/interpretability)**
+  - 🌐 [Visit the Project](https://timkellogg.me/blog/2023/10/01/interpretability)
+  - 📝 Tim Kellogg argues that LLMs like ChatGPT are more interpretable than traditional ML models, allowing for interactive, exploratory learning.
+
 
 
 ---
@@ -110,11 +115,19 @@ Dive deep into the world of research with these enlightening papers:
 
 ### 🎨 Graphics and Imaging
 
+- **Traveling Words: A Geometric Interpretation of Transformers**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2309.07315)
+  - 📝 This paper offers a novel geometric perspective to understand the inner workings of transformers, particularly how layer normalization confines features to a hyper-sphere, aiding attention in shaping word semantics.
+    
 - **CoRF: Colorizing Radiance Fields using Knowledge Distillation**
   - 📜 [Read the Paper](https://arxiv.org/abs/2309.07668)
   - 📝 This research introduces a method to generate colorized novel views from input grayscale multi-view images using Neural Radiance Fields (NeRF). The proposed distillation-based technique effectively transfers color knowledge from 2D colorization methods to the radiance field network, ensuring 3D consistency and producing superior results in both indoor and outdoor scenes compared to other methods.
 
 ### 🚀 Retrieval Techniques
+
+- **Security Weaknesses of Copilot Generated Code in GitHub**
+  - 📜 [Read the Paper](https://arxiv.org/abs/2310.02059)
+  - 📝 Modern code generation tools, especially those utilizing Large Language Models (LLMs) like GitHub Copilot, pose security challenges, leading to potential vulnerabilities in the generated code.
 
 - **Towards Self-Assembling Artificial Neural Networks through Neural Developmental Programs**
   - 📜 [Read the Paper](https://arxiv.org/abs/2307.08197)
@@ -152,6 +165,7 @@ Dive deep into the world of research with these enlightening papers:
 - 🌟 **LargeLanguageModelsProjects** - A collection of llama models in different configurations. [Explore](https://github.com/MuhammadMoinFaisal/LargeLanguageModelsProjects/blob/main/Chat%20with%20Multiple%20Documents/Chat_with_Multiple_Documents_Llama2_OpenAI_Chroma_comp.ipynb).
 
 #### Toolkits and Utilities
+- 🌟 **JVector** - A Java-based vector search engine with no dependencies. [Check it out](https://github.com/jbellis/jvector).
 - 🌟 **AutoGen** - AutoGen is a tool designed for building next-gen LLM applications centered on multi-agent conversations, streamlining the orchestration, automation, and optimization of complex LLM workflows. [Check Out](https://microsoft.github.io/autogen/docs/getting-started)
 - 🌟 **LiteLLM** - Manages inputs to the provider's completion and embedding endpoints. [Discover](https://github.com/BerriAI/litellm).
 - 🌟 **AutoGPT** - A modular toolkit for AI agents. [Explore on GitHub](https://github.com/Significant-Gravitas/AutoGPT).
@@ -164,6 +178,7 @@ Dive deep into the world of research with these enlightening papers:
 ## 🔗 Links & Articles
 
 ### 📈 Research & Innovations
+- [AI beats human sleuth at finding problematic images in research papers](https://www.nature.com/articles/d41586-023-02920-y): AI tools like Imagetwin are being used to detect image manipulation in research papers, emphasizing the importance of human oversight.
 - [AutoGen](https://microsoft.github.io/autogen/docs/getting-started): AutoGen is a tool designed for building next-gen LLM applications centered on multi-agent conversations, streamlining the orchestration, automation, and optimization of complex LLM workflows. It offers customizable conversation patterns, a variety of pre-built systems across domains, and an enhanced inference API that integrates features like performance tuning, API unification, and advanced usage patterns.
 - [Introduction to Flash Attention: A Breakthrough in Efficient Attention Mechanism](https://medium.com/@sthanikamsanthosh1994/introduction-to-flash-attention-a-breakthrough-in-efficient-attention-mechanism-3eb47e8962c3)
 - [Break-A-Scene: Extracting Multiple Concepts from a Single Image](https://omriavrahami.com/break-a-scene/)
@@ -183,12 +198,14 @@ Dive deep into the world of research with these enlightening papers:
 ### 🌌 General AI Insights
 
 #### AI Model Philosophies and Debates
+- [Before the United States Patent and Trademark Office, Department of Commerce](https://www.uspto.gov/sites/default/files/documents/OpenAI_RFC-84-FR-58141.pdf): OpenAI stresses the importance of fair use in AI training and urges clarity in copyright regulations to support AI innovation.
 - [Vector database is not a separate database category](https://nextword.substack.com/p/vector-database-is-not-a-separate)
 - [First Impressions with GPT-4V(ision)](https://blog.roboflow.com/gpt-4-vision/): OpenAI has introduced GPT-4V, a multimodal extension of the GPT-4 model, allowing users to input images and voice queries. While the model excels at general image questions, providing context-aware answers, it has limitations, including inaccuracies in object detection and occasional "hallucinations" of incorrect information.
 - [Why Open Source AI Will Win](https://varunshenoy.substack.com/p/why-open-source-ai-will-win) - The debate between open-source and closed-source AI models.
 - [NSA, FBI, and CISA Release Cybersecurity Information Sheet on Deepfake Threats](https://www.cisa.gov/news-events/alerts/2023/09/12/nsa-fbi-and-cisa-release-cybersecurity-information-sheet-deepfake-threats): The NSA, FBI, and CISA have released a Cybersecurity Information Sheet on the rising threat of synthetic media, including deepfakes, highlighting their growing impact on sectors like the NSS, DoD, and national infrastructure. The agencies emphasize the importance of reviewing their recommended steps and best practices to address deepfake threats effectively.
 
 #### AI Technologies and Capabilities
+- [Microsoft introduces AI meddling to your files with Copilot in OneDrive](https://www.theregister.com/2023/10/04/onedrive_to_acquire_copilot_skills/):Microsoft is set to revamp OneDrive with AI-driven features, with some rolling out in December and others in early 2024.
 - [Picking a vector database: a comparison and guide for 2023](https://benchmark.vectorview.ai/vectordbs.html): The landscape of vector databases in 2023 is diverse, with each offering unique features catering to different needs. While Milvus stands out in performance and community strength, Pinecone shines in developer experience and hosting; the ideal choice varies based on project specifics, budget, and preferences, with the author leaning towards Pinecone and Milvus for their performance and flexibility.
 - [Graph-mining](https://github.com/google/graph-mining): Google's tools for tasks with inherent graph structures, used in products like Search, YouTube, and Maps.
 - [OnnxStream](https://github.com/vitoplantamura/OnnxStream/tree/846da873570a737b49154e8f835704264864b0fe): A specialized inference library designed to minimize memory consumption.
@@ -216,6 +233,7 @@ Dive deep into the world of research with these enlightening papers:
 - [Student Use Cases for AI](https://hbsp.harvard.edu/inspiring-minds/student-use-cases-for-ai): Generative AI tools, particularly large language models (LLMs), present both opportunities and challenges in educational settings, offering students and educators unparalleled access to powerful AI systems. As AI becomes increasingly prevalent in classrooms, it's crucial for educators and students to understand the potential benefits, biases, and privacy concerns of AI, and to adopt best practices for interacting with these tools to ensure effective and safe usage.
 
 #### LLM Architectures and Applications
+- [Intercom on Product: Product strategy in the age of AI](https://www.intercom.com/blog/videos/intercom-on-product-ep21/): AI-driven products should offer unique advantages, and AI will play a significant role in tasks requiring judgment.
 - [OpenAI](https://twitter.com/openai/status/1707077710047216095?s=46&t=Tn3eky5MQ9AEY1npL2msJw): ChatGPT can now browse the internet to provide you with current and authoritative information, complete with direct links to sources. It is no longer limited to data before September 2021.
 - [RAG is more than just embedding search](https://jxnl.github.io/instructor/blog/2023/09/17/rag-is-more-than-just-embedding-search/) - Potential of Retrieval Augmented Generation (RAG) in LLMs.
 - [Emerging Architectures for LLM Applications](https://a16z.com/emerging-architectures-for-llm-applications/) - The article presents an architecture for applications using large language models (LLMs).
