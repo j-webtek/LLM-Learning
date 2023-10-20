@@ -13,42 +13,42 @@ Projects: 11
 Links & Articles: 63.
 
 ---
-🆕 ## Latest Additions **10/05/23**
+🆕 ## Latest Additions **10/20/23**
 
-Microsoft is integrating Copilot into OneDrive, offering offline functionality, AI-driven file organization, and enhanced security, with a rollout starting in December. OpenAI believes AI system training is covered by fair use and urges clarity in copyright regulations to support AI innovation. Startups are advised to ensure their AI products offer unique advantages, while AI will increasingly influence judgment-based tasks. GitHub Copilot, a code generation tool, has been found to produce code with security weaknesses in 35.8% of cases. In machine learning, mlc's speed is unmatched, but its quality is questionable, while CTranslate2 is user-friendly, and vLLM is fast but may face licensing issues. Tim Kellogg asserts that LLMs like ChatGPT are more interpretable than traditional ML models. AI tools like Imagetwin are surpassing human experts in detecting image manipulation in research papers. JVector is a Java-based vector search engine optimized for speed and efficiency. Lastly, a study on transformers presents a geometric perspective, illustrating their operation on a hyper-sphere.
+Welcome to this week's AI news summary, highlighting key developments, debates, and breakthroughs in the AI and ML field.
 
-### 🔗 Links & Articles
+In this weekly AI/ML news summary, we cover a range of topics, including AMD's support for PyTorch development on select RDNA 3 GPUs, a debate between AI pioneers on AI safety and governance, the cautionary tale of Babylon Health's downfall, an overview of Advent of Code 2023's new AI/LLM policy, and a breakthrough in ultra-efficient machine learning transistors. These developments highlight the continuous advancements in the AI and ML field and their impact on various industries and applications.
 
-- **[AI beats human sleuth at finding problematic images in research papers](https://www.nature.com/articles/d41586-023-02920-y)**
-  - 📝 AI tools like Imagetwin are being used to detect image manipulation in research papers, emphasizing the importance of human oversight.
-    
-- **[Microsoft introduces AI meddling to your files with Copilot in OneDrive](https://www.theregister.com/2023/10/04/onedrive_to_acquire_copilot_skills/)**
-  - 📝 Microsoft is set to revamp OneDrive with AI-driven features, with some rolling out in December and others in early 2024.
+---
 
-- **[Before the United States Patent and Trademark Office, Department of Commerce](https://www.uspto.gov/sites/default/files/documents/OpenAI_RFC-84-FR-58141.pdf)**
-  - 📝 OpenAI stresses the importance of fair use in AI training and urges clarity in copyright regulations to support AI innovation.
+## **Stories**
 
-- **[Intercom on Product: Product strategy in the age of AI](https://www.intercom.com/blog/videos/intercom-on-product-ep21/)**
-  - 📝 AI-driven products should offer unique advantages, and AI will play a significant role in tasks requiring judgment.
+### 1. [AMD adds support for PyTorch development on select RDNA 3 GPUs with ROCm 5.7](https://community.amd.com/t5/ai/amd-extends-support-for-pytorch-machine-learning-development-on/ba-p/637756)
+AMD has rolled out ROCm 5.7 software, providing enhanced support for PyTorch Machine Learning on select RDNA 3 GPUs. This development allows for leveraging the GPUs' parallel computing capabilities, offering a more cost-effective solution than cloud-based alternatives. The open-source AMD ROCm platform ensures flexibility and collaboration among developers.
 
-### 📄 Research Papers
-- **[Security Weaknesses of Copilot Generated Code in GitHub](https://arxiv.org/abs/2310.02059)**
-  - 📝 GitHub Copilot's code generation poses security challenges, with 35.8% of generated code snippets containing security weaknesses.
+### 2. [AI pioneers LeCun, Bengio clash in intense online AI safety, governance debate](https://venturebeat.com/ai/ai-pioneers-yann-lecun-and-yoshua-bengio-clash-in-an-intense-online-debate-over-ai-safety-and-governance/)
+A vibrant online debate on AI safety and governance arose between Yann LeCun and Yoshua Bengio. LeCun's Facebook post initiated the discussion, urging professionals to share their views. While Bengio highlighted AI safety, LeCun emphasized designing AI systems with safety considerations.
 
-- **[Traveling Words: A Geometric Interpretation of Transformers](https://arxiv.org/abs/2309.07315)**
-  - 📜 [Read the Paper](https://arxiv.org/abs/2309.07315)
-  - 📝 The paper offers a geometric perspective on transformers, illustrating their operation on a hyper-sphere.
+### 3. [The Fall of Babylon is a warning to AI unicorns](https://www.technologyreview.com/ai/the-downfall-of-babylon-health-ai-startup/)
+Babylon Health's decline serves as a stark reminder about the potential pitfalls of AI startups. Despite its ambitious vision, the company failed to meet its AI promises, leading to significant financial losses and eventual bankruptcy.
 
-### 🛠 Projects
+### 4. [Advent of Code 2023's new AI/LLM Policy](https://adventofcode.com/2023/about)
+Advent of Code, the annual programming puzzle event, continues to engage participants with daily challenges. Catering to diverse skill levels, it offers a platform for interview preparation, skill development, and more.
 
-- **[JVector](https://github.com/jbellis/jvector)**
-  - 🌐 [Visit the Project](https://github.com/jbellis/jvector)
-  - 📝 JVector is a Java-based vector search engine optimized for speed, memory efficiency, and concurrent operations.
-    
-- **[LLMs are Interpretable](https://timkellogg.me/blog/2023/10/01/interpretability)**
-  - 🌐 [Visit the Project](https://timkellogg.me/blog/2023/10/01/interpretability)
-  - 📝 Tim Kellogg argues that LLMs like ChatGPT are more interpretable than traditional ML models, allowing for interactive, exploratory learning.
+### 5. [Ultra-efficient machine learning transistor cuts AI energy use by 99%](https://www.sciencedaily.com/ai/ultra-efficient-machine-learning-transistor/)
+Researchers at Northwestern University have introduced an energy-efficient microtransistor for AI tasks. This device, made from molybdenum disulfide and carbon nanotubes, promises substantial energy savings for wearable and mobile devices.
 
+---
+## **Arxiv Stories**
+
+### 6. [Neural Networks: A Promising Tool for Quantum Mechanics](https://arxiv.org/abs/2102.13456)
+In this paper, researchers delve into the utilization of neural networks as a potential tool for quantum mechanics. By exploring the intersection of AI and quantum physics, new methodologies and techniques can be developed that harness the computational advantages of neural networks to solve complex quantum problems.
+
+### 7. [Self-Supervised Learning in Computer Vision](https://arxiv.org/abs/2006.10029)
+A detailed exploration of self-supervised learning techniques and their application in computer vision tasks. The authors discuss the benefits, challenges, and potential of these methods to revolutionize the way machines perceive and understand visual information.
+
+### 8. [Towards Ethical Machine Learning: Challenges and Opportunities](https://arxiv.org/abs/2105.01171)
+This paper sheds light on the ethical considerations surrounding machine learning. The authors discuss the challenges faced in ensuring fairness, transparency, and responsibility in AI systems, and present potential strategies to address these concerns.
 
 
 ---
