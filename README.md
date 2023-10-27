@@ -17,8 +17,6 @@ Links & Articles: 79.
 
 Welcome to this week's AI news summary, highlighting key developments, debates, and breakthroughs in the AI and ML field.
 
-In this weekly AI/ML news summary, we cover a range of topics, including AMD's support for PyTorch development on select RDNA 3 GPUs, a debate between AI pioneers on AI safety and governance, the cautionary tale of Babylon Health's downfall, an overview of Advent of Code 2023's new AI/LLM policy, and a breakthrough in ultra-efficient machine learning transistors. These developments highlight the continuous advancements in the AI and ML field and their impact on various industries and applications.
-
 ---
 
 ## AI & ML Weekly Summary: week
