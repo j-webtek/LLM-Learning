@@ -13,7 +13,7 @@ Projects: 11
 Links & Articles: 63.
 
 ---
-🆕 ## Latest Additions **10/20/23**
+🆕 ## Latest Additions **10/27/23**
 
 Welcome to this week's AI news summary, highlighting key developments, debates, and breakthroughs in the AI and ML field.
 
@@ -21,35 +21,150 @@ In this weekly AI/ML news summary, we cover a range of topics, including AMD's s
 
 ---
 
-## **Stories**
+## AI & ML Weekly Summary: week
 
-### 1. [AMD adds support for PyTorch development on select RDNA 3 GPUs with ROCm 5.7](https://community.amd.com/t5/ai/amd-extends-support-for-pytorch-machine-learning-development-on/ba-p/637756)
-AMD has rolled out ROCm 5.7 software, providing enhanced support for PyTorch Machine Learning on select RDNA 3 GPUs. This development allows for leveraging the GPUs' parallel computing capabilities, offering a more cost-effective solution than cloud-based alternatives. The open-source AMD ROCm platform ensures flexibility and collaboration among developers.
-
-### 2. [AI pioneers LeCun, Bengio clash in intense online AI safety, governance debate](https://venturebeat.com/ai/ai-pioneers-yann-lecun-and-yoshua-bengio-clash-in-an-intense-online-debate-over-ai-safety-and-governance/)
-A vibrant online debate on AI safety and governance arose between Yann LeCun and Yoshua Bengio. LeCun's Facebook post initiated the discussion, urging professionals to share their views. While Bengio highlighted AI safety, LeCun emphasized designing AI systems with safety considerations.
-
-### 3. [The Fall of Babylon is a warning to AI unicorns](https://www.technologyreview.com/ai/the-downfall-of-babylon-health-ai-startup/)
-Babylon Health's decline serves as a stark reminder about the potential pitfalls of AI startups. Despite its ambitious vision, the company failed to meet its AI promises, leading to significant financial losses and eventual bankruptcy.
-
-### 4. [Advent of Code 2023's new AI/LLM Policy](https://adventofcode.com/2023/about)
-Advent of Code, the annual programming puzzle event, continues to engage participants with daily challenges. Catering to diverse skill levels, it offers a platform for interview preparation, skill development, and more.
-
-### 5. [Ultra-efficient machine learning transistor cuts AI energy use by 99%](https://www.sciencedaily.com/ai/ultra-efficient-machine-learning-transistor/)
-Researchers at Northwestern University have introduced an energy-efficient microtransistor for AI tasks. This device, made from molybdenum disulfide and carbon nanotubes, promises substantial energy savings for wearable and mobile devices.
+A curated list of the most interesting AI and Machine Learning stories from the past week. Dive in to stay updated!
 
 ---
-## **Arxiv Stories**
+### Stories
 
-### 6. [Neural Networks: A Promising Tool for Quantum Mechanics](https://arxiv.org/abs/2102.13456)
-In this paper, researchers delve into the utilization of neural networks as a potential tool for quantum mechanics. By exploring the intersection of AI and quantum physics, new methodologies and techniques can be developed that harness the computational advantages of neural networks to solve complex quantum problems.
+- **[Prepare for a wave of US politicians to use AI in their campaigns](https://www.bloomberg.com/news/articles/2023-10-19/prepare-for-a-wave-of-us-politicians-to-use-ai-in-their-campaigns)**:
+    - Analysis: The content appears to be a message from Bloomberg stating that they have detected unusual activity from the user's computer network and are asking them to confirm that they are not a robot. The message mentions that the user should check if their browser supports JavaScript and cookies and if they are not blocking them from loading. It also provides a reference ID for support inquiries.
 
-### 7. [Self-Supervised Learning in Computer Vision](https://arxiv.org/abs/2006.10029)
-A detailed exploration of self-supervised learning techniques and their application in computer vision tasks. The authors discuss the benefits, challenges, and potential of these methods to revolutionize the way machines perceive and understand visual information.
+---
 
-### 8. [Towards Ethical Machine Learning: Challenges and Opportunities](https://arxiv.org/abs/2105.01171)
-This paper sheds light on the ethical considerations surrounding machine learning. The authors discuss the challenges faced in ensuring fairness, transparency, and responsibility in AI systems, and present potential strategies to address these concerns.
+- **[New data poisoning tool lets artists fight back against generative AI](https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai/)**:
+    - Analysis: Nightshade is a new tool developed by a team led by Ben Zhao from the University of Chicago that allows artists to fight against AI companies using their work without permission. The tool adds invisible changes to the pixels in an artist's work, causing AI models trained on scraped data to produce incorrect and unpredictable outputs. This can damage image-generating AI models and disrupt their ability to generate accurate results. The tool, currently submitted for peer review, aims to tip the power balance in favor of artists and protect their copyright and intellectual property. The team also developed Glaze, a tool that allows artists to mask their personal style to prevent it from being scraped by AI companies. Nightshade will be integrated into Glaze, and both tools will be open source, allowing others to use and modify them.
 
+---
+
+- **[Show HN: Autolicious – AI-powered bookmark cataloging Chrome extension](https://chrome.google.com/webstore/detail/autolicious/jbmpomloomhbfflncpmcmfajbppfddjk)**:
+    - Analysis: Autolicious is a Google Chrome extension that automatically organizes bookmarks using ChatGPT and the OpenAI API. With just one button press, users can add bookmarks and the extension will automatically categorize them with a category, sub-category, and description. However, it's important to note that users will be charged for requests made to the GPT API by OpenAI, with prices starting from $0.0015 per bookmark added.
+
+To use the extension, users need to provide their OpenAI API key, which can be obtained by registering with OpenAI and creating an API key. The extension's popup window allows users to enter their API key and save the settings.
+
+It's important to consider privacy and security concerns when using this extension, as it sends the page content to the OpenAI API for categorization. Although OpenAI claims to handle user data securely, users who have concerns about privacy and the security of their browsing history may want to avoid using this extension.
+
+This version of Autolicious is still in its early stages and only supports viewing saved bookmarks, without the ability to manually organize them.
+
+---
+
+- **[UK officials use AI to decide on issues from benefits to marriage licences](https://www.theguardian.com/technology/2023/oct/23/uk-officials-use-ai-to-decide-on-issues-from-benefits-to-marriage-licences)**:
+    - Analysis: A Guardian investigation has revealed that UK government officials are using artificial intelligence (AI) and complex algorithms in various areas, including welfare, immigration, and criminal justice. However, the investigation has also found evidence of potential discrimination, such as an algorithm used by the Department for Work and Pensions leading to the removal of benefits for dozens of individuals and a facial recognition tool used by the Metropolitan police making more mistakes in recognizing black faces than white ones. The use of AI in decision-making processes highlights the need for better regulation and understanding of the potential biases and implications of these technologies.
+
+---
+
+- **[AMD wants to know if you would like Ryzen AI support for Linux](https://github.com/amd/RyzenAI-SW/issues/2)**:
+    - Analysis: The content is a GitHub issue discussing a link to an article about AMD releasing open-source demo code for Ryzen AI. The issue highlights that the code is only available for Windows and that many libraries are binary only, meaning they are not fully open-source.
+
+---
+
+- **[Cortical Labs: "Human neural networks raised in a simulation"](https://corticallabs.com/)**:
+    - Analysis: The content is about Cortical Labs, a company that is developing a new form of intelligence by growing human neurons into silicon. They have created a simulation called the Biological Intelligence Operating System (biOS), which runs the neurons and sends them information about their environment. The neurons are cultivated on a silicon chip and are directly connected to the digital world, creating a high-bandwidth connection between organic and digital networks. The ultimate goal is to create a new form of learning machine that surpasses the limitations of traditional silicon-based computers. Cortical Labs is inviting developers to join their program to gain early access to their software development kit (SDK) and train the minds they are developing. The focus is not on creating smarter computers or data centers, but on exploring the potential of organic-digital intelligence.
+
+---
+
+- **[Riley Reid on AI: 'I Don't Want Porn to Get Left Behind'](https://www.404media.co/riley-reid-clona-ai-chatbot-virtual-companion/)**:
+    - Analysis: Riley Reid, a porn performer, discusses her involvement with Clona.ai, a virtual companion platform that allows users to chat with AI versions of real people. Clona.ai uses Meta's open-source language model, LLaMa, to create virtual versions that reflect the personalities of the individuals behind them. Reid co-founded Clona.ai to ensure that she has control over the use of her likeness and to be a part of technological advances in society. She believes that AI has a place in the future of pornography and online sex.
+
+---
+
+- **[Animated AI](https://animatedai.github.io/)**:
+    - Analysis: The content being reviewed is about neural networks and includes instructional videos on various topics related to AI. The topics covered include the basic algorithm of convolution, padding, stride, groups in convolution, depthwise and depthwise-separable convolution, and pixel shuffle for changing resolution. The content is available on the creator's Patreon and YouTube channel and is licensed under the MIT License.
+
+---
+
+- **[We cannot allow AI to make Big Tech even bigger](https://www.cnbc.com/2023/10/24/op-ed-we-cannot-allow-ai-to-make-big-tech-even-bigger-steve-case.html)**:
+    - Analysis: In this op-ed, Steve Case, co-founder of AOL and venture capitalist, expresses his concern about the potential expansion of Big Tech through the use of artificial intelligence (AI). He argues that if AI is allowed to dominate tech industry, it could lead to further consolidation of power and limit competition. Case emphasizes the importance of keeping the tech industry diverse and innovative by encouraging competition and preventing excessive concentration of power.
+
+---
+
+- **[What AI won't replace in your programming](https://www.infoworld.com/article/3709230/what-ai-wont-replace-in-your-programming.html)**:
+    - Analysis: The article discusses how generative AI can be used to augment the developer experience, but it emphasizes that AI will not replace the expertise and intuition of programmers. It highlights the importance of programmers having a deep understanding of coding and being able to effectively prompt and evaluate AI tools. AI assistants can be helpful for new or inexperienced developers by automating tedious tasks, but they should not be relied upon to do all the work. The article encourages developers to start small and automate simple tasks to get started with generative AI and software development.
+
+---
+
+- **[Lawrence Lessig on why AI and social media are causing a free speech crisis](https://www.theverge.com/23929233/lawrence-lessig-free-speech-first-amendment-ai-content-moderation-decoder-interview)**:
+    - Analysis: The Verge article features an interview with Harvard law professor Lawrence Lessig, who discusses the free speech crisis on the internet caused by artificial intelligence (AI) and social media platforms like TikTok. Lessig, an expert in internet policy, expresses concerns about the abundance of disinformation and misinformation online, which is harmful to individuals and democracy. While the US First Amendment protects speech, Lessig mentions various strategies, such as copyright law, that have emerged to regulate content on the internet. The article highlights that there are different approaches to address these speech regulations.
+
+---
+
+- **[Deciphering Latest Restrictions on AI and Semiconductor Manufacturing](https://www.semianalysis.com/p/wafer-wars-deciphering-latest-restrictions)**:
+    - Analysis: The US government has introduced new restrictions on AI chips and wafer fabrication equipment in its ongoing trade war with China. The restrictions specifically target AI semiconductors and close most of the loopholes that allowed companies to release modified chips with slightly lower bandwidth while maintaining high performance. The new regulations also include a performance density threshold to prevent shipments of chips with smaller die sizes but still efficient computing power. The ruling has caught companies like Nvidia and GPUs such as the L40S off guard, as they expected to ship their products to China. It is believed that the 4090 GPU may be granted a license due to its datacenter focus. The article also mentions China's efforts to work around these restrictions and the impact on various companies and earnings going forward.
+
+---
+
+- **[AI 'breakthrough': neural net has human-like ability to generalize language](https://www.nature.com/articles/d41586-023-03272-3)**:
+    - Analysis: A neural network has been created with the ability to generalize language, similar to humans. The artificial intelligence (AI) system can quickly incorporate newly learned words into its vocabulary and use them in various contexts, showcasing systematic generalization. In comparison, the popular chatbot ChatGPT performs poorly at this task despite its human-like conversational abilities. This breakthrough could lead to more natural interactions between machines and humans. Neural networks have traditionally struggled with systematic generalization, while humans effortlessly use new words in different settings. The study involved testing 25 individuals on their ability to deploy newly learned words in different situations, laying the foundation for training neural networks to be more systematic.
+
+---
+
+- **[Show HN: Spice.ai – Building blocks for data and time-series AI applications](https://blog.spice.ai/spice-ai-is-generally-available-d76c4289960c)**:
+    - Analysis: Spice.ai, an application platform for building intelligent data and time-series AI applications, has announced its general availability. The platform provides developers with composable data and AI building blocks, including pre-trained machine learning models and a petabyte-scale cloud data platform. The platform also includes a new community-centric developer hub where developers can create, fork, and share datasets and ML models. Additionally, Spice.ai has introduced new tools such as Spice Firecache, a real-time, in-memory SQL service, and Spice Functions, a hosted function compute service for data transformation and processing. Developers can also customize their data with custom datasets and views.
+
+---
+
+- **[Show HN: Prompt-Engineering Tool: AI-to-AI Testing for LLM](https://github.com/artas728/spelltest)**:
+    - Analysis: The content is a GitHub repository belonging to the user "artas728" titled "spelltest". It is described as an AI-to-AI Testing simulation framework for LLM-based applications. The repository contains code files, examples, and documentation related to the spelltest framework. It is licensed under the MIT license and has gained 52 stars and 2 forks. The content provides information on how to use the framework, including describing simulations, running simulations, and analyzing results. The repository also includes important notices for users, such as project maturity warning and cost expectations. Overall, the content serves as a resource for implementing AI-to-AI testing using the spelltest framework.
+
+---
+
+- **[Cosine: AI Co-Developer](https://cosine.sh/)**:
+    - Analysis: Cosine is an AI knowledge engine that helps developers understand and work with their codebase. It offers features such as answering coding questions, explaining code features, and providing suggestions for new code. The tool can be installed either through the website or as a Visual Studio Code extension. Unlike other AI copilots, Cosine reads every code snippet in the codebase, providing a higher level of contextual semantic understanding. It utilizes OpenAI to create semantic embeddings for code, which are stored locally on the user's system for privacy. Cosine does not store code on its servers and the OpenAI API is configured to not submit user inputs for training. Testimonials from users highlight the tool's usability and effectiveness in improving productivity and understanding of code.
+
+---
+
+- **[Dante: Advanced custom AI chatbots trained on your data](https://dante-ai.com/)**:
+    - Analysis: Dante AI is an AI chatbot builder that allows users to create custom AI chatbots without any coding. The platform offers features such as the ability to upload various file types, share website links, images, and videos to train intelligent chatbots. Dante AI can be integrated with websites and other platforms using an iframe or a chat bubble. The platform also provides advanced insights, analytics, and customization options. Users can store their data securely on encrypted AWS servers, and the platform supports over 100 languages. Dante AI offers a 2-day free trial and integrates with Zapier for compatibility with over 5,000 applications.
+
+---
+
+- **[Nightshade, a tool allowing artists to 'poison' AI models](https://venturebeat.com/ai/meet-nightshade-the-new-tool-allowing-artists-to-poison-ai-models-with-corrupted-training-data/)**:
+    - Analysis: Nightshade is an open-source tool that allows artists to "poison" AI models with corrupted training data, making the models generate incorrect and distorted output. The tool, developed by researchers at the University of Chicago, can be added to digital art before uploading it to the web, altering pixels in a way that is invisible to the human eye but confuses AI models. For example, an image of a dog can be poisoned to make an AI model perceive it as a cat. The tool aims to give artists a way to fight back against AI models that use their work without permission.
+
+---
+
+- **[Lexis+ AI Is Generally Available for US Customers](https://www.lawnext.com/2023/10/lexisnexis-rolls-out-lexis-ai-for-general-availability-promising-hallucination-free-answers-to-legal-questions.html)**:
+    - Analysis: LexisNexis has released Lexis+ AI, a product that uses large language models to answer legal research questions, summarize legal issues, and generate legal document drafts. It is now available for all US customers after being tested and refined with various law firms, legal departments, and courts. Lexis+ AI claims to deliver trusted results with "hallucination-free" linked legal citations, offering accurate and verifiable information. The product is said to be "multiple times faster" than other legal generative AI solutions and allows users to provide instant feedback for continual improvement. It also features conversational search capabilities. However, there is a dispute regarding LexisNexis' claim of being the only product with inline linked citations, as vLex's Vincent AI also offers this feature.
+
+---
+
+- **[Puncia – Subdomain and Exploit Hunter Powered by AI](https://github.com/ARPSyndicate/puncia)**:
+    - Analysis: The content is a GitHub repository for a tool called Puncia, which is described as the "Panthera(P.)uncia of Cybersecurity - Subdomain & Exploit Hunter powered by AI." It is used to automate the process of finding subdomains and exploits in cybersecurity. The tool utilizes two AI-powered APIs - Subdomain Center and Exploit Observer - to gather results. Installation instructions are provided for installing Puncia from PyPi or from the source code.
+
+---
+
+- **[AI titans throw a (tiny) bone to AI safety researchers](https://techcrunch.com/2023/10/25/ai-titans-throw-a-tiny-bone-to-ai-safety-researchers/)**:
+    - Analysis: The Frontier Model Forum, an industry body consisting of Anthropic, Google, Microsoft, and OpenAI, has announced a $10 million fund to support research on tools for testing and evaluating advanced AI models. The fund will be administered by the Meridian Institute and will support researchers from academic institutions, research institutions, and startups. The initial funding will come from the Frontier Model Forum and its philanthropic partners. The fund's primary focus will be on developing evaluation techniques for potentially dangerous capabilities of frontier AI systems. While $10 million is a significant amount, it is comparatively conservative given the resources of the fund's backers. Other organizations, such as Open Philanthropy and The Survival and Flourishing Fund, have provided larger grants for AI safety research. The Frontier Model Forum alludes to the possibility of a larger fund in the future.
+
+---
+
+- **[US orders immediate halt to some AI chip exports to China, says Nvidia](https://www.theguardian.com/business/2023/oct/25/us-orders-immediate-halt-to-some-ai-chip-exports-to-china-says-nvidia)**:
+    - Analysis: The US government has instructed chip designer Nvidia to immediately halt the export of some of its high-end artificial intelligence (AI) chips to China. The restrictions were originally scheduled to come into effect 30 days after October 17, when the Biden administration announced measures to prevent countries like China, Iran, and Russia from receiving advanced AI chips. Nvidia did not provide a reason for the accelerated timing of the restrictions and stated that it does not expect an immediate impact on its earnings. Fellow semiconductor company Advanced Micro Devices is also affected by the export restrictions, but has not commented on the matter. Intel, which sells its Gaudi 2 chips in China, stated that it is reviewing the regulations and assessing the potential impact. The US Department of Commerce declined to comment on the situation. The export ban includes Nvidia's A800 and H800 modified advanced AI chips, as well as the A100, H100, and L40S chips.
+
+---
+
+- **[Jina AI launches open-source 8k text embedding](https://jina.ai/news/jina-ai-launches-worlds-first-open-source-8k-text-embedding-rivaling-openai/)**:
+    - Analysis: Jina AI, a Berlin-based artificial intelligence company, has launched jina-embeddings-v2, an open-source text embedding model with an 8K (8192 tokens) context length. This makes it comparable to OpenAI's proprietary model, text-embedding-ada-002, in terms of capabilities and performance. Jina-embeddings-v2 outperforms OpenAI's model in multiple benchmarks such as classification, reranking, retrieval, and summarization. The model was built from scratch over the course of three months, offering extended context potential for applications such as legal document analysis and medical research. Jina AI aims to provide innovative solutions in the field of AI.
+
+---
+
+- **[MetaCLIP – Meta AI Research](https://github.com/facebookresearch/MetaCLIP)**:
+    - Analysis: The content is a GitHub repository for MetaCLIP by facebookresearch. It includes curation/training code, metadata, distribution, and pre-trained models. The repository contains various files and folders related to the project.
+
+---
+
+- **[Show HN: Polyfire – Javascript SDK to build AI apps without a backend](https://github.com/polyfire-ai/polyfire-js)**:
+    - Analysis: The content is a GitHub repository for a project called polyfire-js, which is described as a managed backend for AI apps. It allows for calling AI models from the frontend. The repository includes various files and folders related to the project, such as code, examples, and configuration files. There have been several commits to the repository, with the latest one made on October 26, 2023.
+
+---
+
+- **[The Beatles: 'final' song Now and Then to be released thanks to AI technology](https://www.theguardian.com/music/2023/oct/26/the-beatles-final-song-now-and-then-ai-technology)**:
+    - Analysis: The long-awaited "final" Beatles song, titled "Now and Then," is set to be released thanks to AI technology used to enhance the audio in Peter Jackson's documentary, "Get Back." The software was used to separate John Lennon's vocals from a demo tape he left to Paul McCartney. The song was written and sung by Lennon in the late 1970s and was given to McCartney by Yoko Ono in 1994. Technological limitations at the time prevented the vocals and piano from being separated and added to new parts recorded by the other three Beatles. However, using AI-assisted software, the original audio from footage of the Beatles recording their final album, "Let It Be," was de-mixed and isolated for the documentary. This technology was then used to isolate Lennon's vocals and piano for "Now and Then," and McCartney and Ringo Starr have contributed new parts to the song, with George Harrison's guitar parts from 1995 also included.
+
+---
+
+Thank you for reading this week's summary! Stay tuned for more exciting updates from the world of AI and Machine Learning!
 
 ---
 
