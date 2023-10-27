@@ -26,11 +26,6 @@ A curated list of the most interesting AI and Machine Learning stories from the 
 ---
 ### Stories
 
-- **[Prepare for a wave of US politicians to use AI in their campaigns](https://www.bloomberg.com/news/articles/2023-10-19/prepare-for-a-wave-of-us-politicians-to-use-ai-in-their-campaigns)**:
-    - Analysis: The content appears to be a message from Bloomberg stating that they have detected unusual activity from the user's computer network and are asking them to confirm that they are not a robot. The message mentions that the user should check if their browser supports JavaScript and cookies and if they are not blocking them from loading. It also provides a reference ID for support inquiries.
-
----
-
 - **[New data poisoning tool lets artists fight back against generative AI](https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai/)**:
     - Analysis: Nightshade is a new tool developed by a team led by Ben Zhao from the University of Chicago that allows artists to fight against AI companies using their work without permission. The tool adds invisible changes to the pixels in an artist's work, causing AI models trained on scraped data to produce incorrect and unpredictable outputs. This can damage image-generating AI models and disrupt their ability to generate accurate results. The tool, currently submitted for peer review, aims to tip the power balance in favor of artists and protect their copyright and intellectual property. The team also developed Glaze, a tool that allows artists to mask their personal style to prevent it from being scraped by AI companies. Nightshade will be integrated into Glaze, and both tools will be open source, allowing others to use and modify them.
 
